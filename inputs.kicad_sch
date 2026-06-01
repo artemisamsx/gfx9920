@@ -1,61 +1,77 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "4d138ee1-b53b-4bfe-8357-663625d8c2a9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "artemisa:12V"
-			(power)
-			(pin_numbers hide)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "12V"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "12V_0_0"
@@ -102,17 +118,24 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:1N5819"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,6 +144,8 @@
 			)
 			(property "Value" "1N5819"
 				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -129,47 +154,53 @@
 			)
 			(property "Footprint" ""
 				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1N5819_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 0.635 -0.635)
+						(xy -0.635 0.635) (xy -0.635 -0.635) (xy 0.635 0) (xy -0.635 0.635)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 1.016 -0.635) (xy 1.016 -0.508)
+						(xy 0.635 0.635) (xy 0.635 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -193,14 +224,14 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.635) (xy -0.635 -0.635) (xy 0.635 0) (xy -0.635 0.635)
+						(xy 0.635 -0.635) (xy 1.016 -0.635) (xy 1.016 -0.508)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
@@ -208,7 +239,7 @@
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.905)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,7 +257,7 @@
 				(pin passive line
 					(at 2.54 0 180)
 					(length 1.905)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -242,15 +273,23 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:74HC32"
+			(body_styles demorgan)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 7.62 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -259,6 +298,8 @@
 			)
 			(property "Value" "74HC32"
 				(at 8.89 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -267,40 +308,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74HC32_1_0"
-				(text "GND"
-					(at 1.27 -6.35 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
 				(text "VCC"
 					(at 1.27 6.35 900)
 					(effects
@@ -309,21 +348,11 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
+				(text "GND"
+					(at 1.27 -6.35 900)
+					(effects
+						(font
+							(size 0.762 0.762)
 						)
 					)
 				)
@@ -345,36 +374,30 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC32_1_1"
 				(arc
-					(start -5.08 -3.81)
+					(start -5.08 3.81)
 					(mid -3.5018 0)
-					(end -5.08 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 3.6784 -2.744)
-					(end 6.35 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy 0 -3.81)
-					)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -395,10 +418,34 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 6.35 0)
+					(mid 3.6784 -2.744)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
 					(mid 3.6784 2.744)
-					(end 0 3.81)
+					(end 6.35 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -410,7 +457,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -428,7 +475,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,7 +493,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 5.1054)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,7 +524,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 1.27 -3.81)
+						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -501,7 +548,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
+						(xy 0 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -512,9 +559,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -3.81)
+					(start 1.27 3.81)
 					(mid 5.0633 0)
-					(end 1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -526,7 +573,7 @@
 				(pin input inverted
 					(at -10.16 2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -544,7 +591,7 @@
 				(pin input inverted
 					(at -10.16 -2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -562,7 +609,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 6.2992)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -580,33 +627,9 @@
 			)
 			(symbol "74HC32_2_1"
 				(arc
-					(start -5.08 -3.81)
+					(start -5.08 3.81)
 					(mid -3.5018 0)
-					(end -5.08 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 3.6784 -2.744)
-					(end 6.35 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy 0 -3.81)
-					)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -627,10 +650,34 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 6.35 0)
+					(mid 3.6784 -2.744)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
 					(mid 3.6784 2.744)
-					(end 0 3.81)
+					(end 6.35 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -642,7 +689,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -660,7 +707,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,7 +725,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 5.1054)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -709,7 +756,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 1.27 -3.81)
+						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -733,7 +780,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
+						(xy 0 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -744,9 +791,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -3.81)
+					(start 1.27 3.81)
 					(mid 5.0633 0)
-					(end 1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -758,7 +805,7 @@
 				(pin input inverted
 					(at -10.16 2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -776,7 +823,7 @@
 				(pin input inverted
 					(at -10.16 -2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -794,7 +841,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 6.2992)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -812,33 +859,9 @@
 			)
 			(symbol "74HC32_3_1"
 				(arc
-					(start -5.08 -3.81)
+					(start -5.08 3.81)
 					(mid -3.5018 0)
-					(end -5.08 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 3.6784 -2.744)
-					(end 6.35 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy 0 -3.81)
-					)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -859,10 +882,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 6.35 0)
-					(mid 3.6784 2.744)
-					(end 0 3.81)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 0 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -871,28 +894,34 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 5.9944)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(arc
+					(start 6.35 0)
+					(mid 3.6784 -2.744)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 3.6784 2.744)
+					(end 6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin output line
 					(at 11.43 0 180)
 					(length 5.1054)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,7 +939,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -918,6 +947,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 5.9944)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -941,7 +988,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 1.27 -3.81)
+						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -965,7 +1012,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
+						(xy 0 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -976,9 +1023,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -3.81)
+					(start 1.27 3.81)
 					(mid 5.0633 0)
-					(end 1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -987,28 +1034,10 @@
 						(type none)
 					)
 				)
-				(pin input inverted
-					(at -10.16 -2.54 0)
-					(length 5.0038)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 6.2992)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,7 +1055,7 @@
 				(pin input inverted
 					(at -10.16 2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,36 +1070,30 @@
 						)
 					)
 				)
+				(pin input inverted
+					(at -10.16 -2.54 0)
+					(length 5.0038)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC32_4_1"
 				(arc
-					(start -5.08 -3.81)
+					(start -5.08 3.81)
 					(mid -3.5018 0)
-					(end -5.08 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 3.6784 -2.744)
-					(end 6.35 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy 0 -3.81)
-					)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1091,10 +1114,34 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 6.35 0)
+					(mid 3.6784 -2.744)
+					(end 0 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
 					(mid 3.6784 2.744)
-					(end 0 3.81)
+					(end 6.35 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1106,7 +1153,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 5.1054)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1124,7 +1171,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1142,7 +1189,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 5.9944)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1173,7 +1220,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 1.27 -3.81)
+						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -1197,7 +1244,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81) (xy 0 -3.81)
+						(xy 0 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -1208,9 +1255,9 @@
 					)
 				)
 				(arc
-					(start 1.27 -3.81)
+					(start 1.27 3.81)
 					(mid 5.0633 0)
-					(end 1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1222,7 +1269,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 6.2992)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,7 +1287,7 @@
 				(pin input inverted
 					(at -10.16 2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1258,7 +1305,7 @@
 				(pin input inverted
 					(at -10.16 -2.54 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1274,15 +1321,23 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:74HCT04"
+			(body_styles demorgan)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.62 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1291,6 +1346,8 @@
 			)
 			(property "Value" "74HCT04"
 				(at -6.35 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1299,29 +1356,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74HCT04_1_1"
@@ -1337,16 +1400,16 @@
 						(type none)
 					)
 				)
-				(text "GND"
-					(at 1.27 -3.81 900)
+				(text "VCC"
+					(at 1.27 3.81 900)
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(text "VCC"
-					(at 1.27 3.81 900)
+				(text "GND"
+					(at 1.27 -3.81 900)
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1356,7 +1419,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1371,28 +1434,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1425,6 +1470,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HCT04_1_2"
 				(polyline
@@ -1442,7 +1505,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1460,7 +1523,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1492,7 +1555,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1510,7 +1573,7 @@
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,7 +1605,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1560,7 +1623,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1592,7 +1655,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1610,7 +1673,7 @@
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1642,7 +1705,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1660,7 +1723,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1692,7 +1755,7 @@
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1710,7 +1773,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1742,7 +1805,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,7 +1823,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1792,7 +1855,7 @@
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1810,7 +1873,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1842,7 +1905,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1860,7 +1923,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1892,7 +1955,7 @@
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1910,7 +1973,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 5.0038)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1942,7 +2005,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1960,7 +2023,7 @@
 				(pin input inverted
 					(at -7.62 0 0)
 					(length 5.08)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1976,16 +2039,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:CP"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1995,6 +2067,8 @@
 			)
 			(property "Value" "CP"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2004,38 +2078,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "CP_0_1"
@@ -2076,9 +2158,9 @@
 					)
 				)
 				(arc
-					(start 1.524 -0.762)
+					(start -1.524 -0.762)
 					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(end 1.524 -0.762)
 					(stroke
 						(width 0.3048)
 						(type default)
@@ -2092,7 +2174,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2110,7 +2192,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2126,16 +2208,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:Cap"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2145,6 +2236,8 @@
 			)
 			(property "Value" "Cap"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2154,53 +2247,49 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Cap_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -2213,12 +2302,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "Cap_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2236,7 +2337,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2252,6 +2353,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:GFX_Connector_Input"
 			(pin_names
@@ -2260,8 +2362,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 69.85 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2270,6 +2376,8 @@
 			)
 			(property "Value" "GFX_Connector_Input"
 				(at -8.89 5.08 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2278,29 +2386,35 @@
 			)
 			(property "Footprint" ""
 				(at -6.35 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -6.35 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GFX_Connector_Input_0_1"
@@ -2328,6 +2442,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 63.5 180)
+					(length 3.81)
+					(name "~{CS2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 60.96 180)
+					(length 3.81)
+					(name "~{CS12}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 58.42 180)
+					(length 3.81)
+					(name "~{SLTSL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 55.88 180)
+					(length 3.81)
+					(name "Reserved"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 53.34 180)
+					(length 3.81)
+					(name "~{RFSH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 50.8 180)
+					(length 3.81)
+					(name "~{WAIT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 48.26 180)
+					(length 3.81)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 45.72 180)
+					(length 3.81)
+					(name "~{M1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2516,24 +2774,6 @@
 					)
 				)
 				(pin output line
-					(at 10.16 63.5 180)
-					(length 3.81)
-					(name "~{CS2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 10.16 17.78 180)
 					(length 3.81)
 					(name "A10"
@@ -2706,24 +2946,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 60.96 180)
-					(length 3.81)
-					(name "~{CS12}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2911,24 +3133,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 58.42 180)
-					(length 3.81)
-					(name "~{SLTSL}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 10.16 -33.02 180)
 					(length 3.81)
@@ -3109,24 +3313,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 55.88 180)
-					(length 3.81)
-					(name "Reserved"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 10.16 -58.42 180)
 					(length 3.81)
@@ -3145,131 +3331,76 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 53.34 180)
-					(length 3.81)
-					(name "~{RFSH}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 50.8 180)
-					(length 3.81)
-					(name "~{WAIT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 48.26 180)
-					(length 3.81)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 45.72 180)
-					(length 3.81)
-					(name "~{M1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:GND"
-			(power)
-			(pin_numbers hide)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -3297,7 +3428,7 @@
 							)
 						)
 					)
-					(number "~"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3306,16 +3437,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3324,6 +3464,8 @@
 			)
 			(property "Value" "L"
 				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3332,77 +3474,63 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Inductor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -3414,8 +3542,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -3463,6 +3615,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:MC34063"
 			(pin_names
@@ -3471,8 +3624,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3481,6 +3638,8 @@
 			)
 			(property "Value" "MC34063"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3489,29 +3648,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MC34063_0_1"
@@ -3673,17 +3838,24 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3692,6 +3864,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -3700,29 +3874,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_1_1"
@@ -3740,7 +3920,7 @@
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3758,7 +3938,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3774,58 +3954,75 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "artemisa:VCC"
-			(power)
-			(pin_numbers hide)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_0"
@@ -3872,26 +4069,37 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3900,38 +4108,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
@@ -3968,6 +4184,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -5258,7 +5475,6 @@
 	)
 	(label "DATA7"
 		(at 165.1 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5269,7 +5485,6 @@
 	)
 	(label "DATA0"
 		(at 165.1 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5280,7 +5495,6 @@
 	)
 	(label "DATA1"
 		(at 165.1 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5291,7 +5505,6 @@
 	)
 	(label "DATA4"
 		(at 165.1 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5302,7 +5515,6 @@
 	)
 	(label "DATA3"
 		(at 165.1 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5313,7 +5525,6 @@
 	)
 	(label "DATA5"
 		(at 165.1 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5324,7 +5535,6 @@
 	)
 	(label "DATA6"
 		(at 165.1 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5335,7 +5545,6 @@
 	)
 	(label "DATA2"
 		(at 165.1 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5347,7 +5556,6 @@
 	(hierarchical_label "DATA[0..7]"
 		(shape bidirectional)
 		(at 180.34 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5359,7 +5567,6 @@
 	(hierarchical_label "SOUNDOUT"
 		(shape output)
 		(at 167.64 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5371,7 +5578,6 @@
 	(hierarchical_label "A0"
 		(shape output)
 		(at 167.64 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5383,7 +5589,6 @@
 	(hierarchical_label "~{RD}"
 		(shape output)
 		(at 167.64 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5395,7 +5600,6 @@
 	(hierarchical_label "~{INT}"
 		(shape input)
 		(at 167.64 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5407,7 +5611,6 @@
 	(hierarchical_label "~{RESET}"
 		(shape output)
 		(at 167.64 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5419,7 +5622,6 @@
 	(hierarchical_label "~{WR}"
 		(shape output)
 		(at 167.64 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5431,7 +5633,6 @@
 	(hierarchical_label "BUSDIR"
 		(shape input)
 		(at 167.64 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5443,7 +5644,6 @@
 	(hierarchical_label "~{VDPIOSL}"
 		(shape output)
 		(at 167.64 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,13 +5656,17 @@
 		(lib_id "artemisa:GFX_Connector_Input")
 		(at 125.73 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76bd7")
 		(property "Reference" "J1"
 			(at 127.7874 30.099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,6 +5675,8 @@
 		)
 		(property "Value" "GFX_Connector_Input"
 			(at 127.7874 32.4104 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,29 +5685,35 @@
 		)
 		(property "Footprint" "artemisa:GFX_conn"
 			(at 119.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 119.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 125.73 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5655,7 +5867,7 @@
 			(uuid "a9b42288-928d-4a67-855d-437e5734f8d6")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "J1")
 					(unit 1)
@@ -5667,13 +5879,17 @@
 		(lib_id "artemisa:CP")
 		(at 181.61 148.59 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c4a")
 		(property "Reference" "C11"
 			(at 182.88 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,6 +5899,8 @@
 		)
 		(property "Value" "10uF"
 			(at 184.15 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,29 +5910,35 @@
 		)
 		(property "Footprint" "artemisa:Radial_capacitor"
 			(at 181.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 181.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 181.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5724,7 +5948,7 @@
 			(uuid "a97ef159-d779-4a47-90e9-4ab79d7cafe9")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C11")
 					(unit 1)
@@ -5736,61 +5960,73 @@
 		(lib_id "artemisa:VCC")
 		(at 158.75 26.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c51")
 		(property "Reference" "#PWR0116"
 			(at 158.75 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 158.75 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0d99f491-c1b6-4e30-8ffb-9cac0ea44f20")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0116")
 					(unit 1)
@@ -5802,61 +6038,73 @@
 		(lib_id "artemisa:VCC")
 		(at 173.99 144.78 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c57")
 		(property "Reference" "#PWR0117"
 			(at 173.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 173.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 173.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f17632a8-9877-4e0b-888a-fd02a41e4454")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0117")
 					(unit 1)
@@ -5868,61 +6116,73 @@
 		(lib_id "artemisa:GND")
 		(at 187.96 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c5d")
 		(property "Reference" "#PWR0118"
 			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 187.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 187.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 187.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 187.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "b4a9c304-aba1-475b-8232-86167f56f866")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0118")
 					(unit 1)
@@ -5934,61 +6194,73 @@
 		(lib_id "artemisa:GND")
 		(at 163.83 146.05 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c63")
 		(property "Reference" "#PWR0122"
 			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "4d7c64b3-a5a8-46db-8dba-e7bfb89a37c9")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0122")
 					(unit 1)
@@ -6000,22 +6272,28 @@
 		(lib_id "power:PWR_FLAG")
 		(at 53.34 99.06 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf00ef")
 		(property "Reference" "#FLG0101"
 			(at 51.435 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 50.0888 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,36 +6303,42 @@
 		)
 		(property "Footprint" ""
 			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "b05db4c7-d6a2-40d3-8d75-41e2103137ef")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#FLG0101")
 					(unit 1)
@@ -6066,22 +6350,28 @@
 		(lib_id "power:PWR_FLAG")
 		(at 53.34 78.74 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf00f7")
 		(property "Reference" "#FLG0102"
 			(at 51.435 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 50.0888 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,36 +6381,42 @@
 		)
 		(property "Footprint" ""
 			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "b261e1b5-1bf6-41f6-b94e-d06f5040caee")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#FLG0102")
 					(unit 1)
@@ -6132,13 +6428,17 @@
 		(lib_id "artemisa:Cap")
 		(at 101.6 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf00ff")
 		(property "Reference" "C8"
 			(at 100.33 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,6 +6448,8 @@
 		)
 		(property "Value" "100nF"
 			(at 100.33 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,29 +6459,35 @@
 		)
 		(property "Footprint" "artemisa:Disc_capacitor"
 			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6189,7 +6497,7 @@
 			(uuid "d37e4127-acfb-48c6-83e3-b0bed206ff9e")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C8")
 					(unit 1)
@@ -6201,13 +6509,17 @@
 		(lib_id "artemisa:Cap")
 		(at 77.47 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf0105")
 		(property "Reference" "C9"
 			(at 76.2 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,6 +6529,8 @@
 		)
 		(property "Value" "100nF"
 			(at 76.2 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,29 +6540,35 @@
 		)
 		(property "Footprint" "artemisa:Disc_capacitor"
 			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6258,7 +6578,7 @@
 			(uuid "b0aad601-a7ac-4aa1-b6ad-7ff3463a41d2")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C9")
 					(unit 1)
@@ -6270,13 +6590,17 @@
 		(lib_id "artemisa:74HCT04")
 		(at 93.98 88.9 0)
 		(unit 7)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf010b")
 		(property "Reference" "U2"
 			(at 88.9 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,6 +6610,8 @@
 		)
 		(property "Value" "74HCT04"
 			(at 88.9 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,29 +6621,35 @@
 		)
 		(property "Footprint" "artemisa:DIP-14_300"
 			(at 93.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 93.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 93.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6363,7 +6695,7 @@
 			(uuid "67660b78-693d-4bd2-a441-215e6e2c6f24")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "U2")
 					(unit 7)
@@ -6375,13 +6707,17 @@
 		(lib_id "artemisa:74HC32")
 		(at 69.85 88.9 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf0117")
 		(property "Reference" "U7"
 			(at 64.77 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,6 +6727,8 @@
 		)
 		(property "Value" "74HC32"
 			(at 64.77 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,29 +6738,35 @@
 		)
 		(property "Footprint" "artemisa:DIP-14_300"
 			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 69.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "14"
@@ -6468,7 +6812,7 @@
 			(uuid "3c830586-0918-4f0c-b0a1-c32670d37926")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "U7")
 					(unit 5)
@@ -6480,61 +6824,73 @@
 		(lib_id "artemisa:VCC")
 		(at 57.15 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf0129")
 		(property "Reference" "#PWR0124"
 			(at 57.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4dda6835-c4fc-4520-b10d-b1c31b8bbe35")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0124")
 					(unit 1)
@@ -6546,61 +6902,73 @@
 		(lib_id "artemisa:GND")
 		(at 57.15 101.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf012f")
 		(property "Reference" "#PWR0125"
 			(at 57.15 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 57.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 57.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 57.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 57.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "4a3cc016-15c9-4074-81d8-9d4086bf0660")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR0125")
 					(unit 1)
@@ -6612,13 +6980,17 @@
 		(lib_id "artemisa:MC34063")
 		(at 215.9 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0f6a9b")
 		(property "Reference" "U17"
 			(at 215.9 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,6 +6999,8 @@
 		)
 		(property "Value" "MC34063"
 			(at 215.9 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,29 +7009,35 @@
 		)
 		(property "Footprint" ""
 			(at 215.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 215.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 215.9 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6685,7 +7065,7 @@
 			(uuid "6d808d3d-a82f-413f-9375-2b44a51e0f66")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "U17")
 					(unit 1)
@@ -6697,61 +7077,73 @@
 		(lib_id "artemisa:VCC")
 		(at 259.08 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0f6eb1")
 		(property "Reference" "#PWR032"
 			(at 259.08 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 259.08 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 259.08 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 259.08 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 259.08 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ee86e374-2a4c-450c-a0be-e692fe8ad79d")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR032")
 					(unit 1)
@@ -6763,13 +7155,17 @@
 		(lib_id "artemisa:CP")
 		(at 259.08 67.31 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0f858b")
 		(property "Reference" "C17"
 			(at 255.27 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,6 +7175,8 @@
 		)
 		(property "Value" "100uF"
 			(at 262.89 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,29 +7186,35 @@
 		)
 		(property "Footprint" "artemisa:Radial_capacitor"
 			(at 259.08 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 259.08 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 259.08 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6820,7 +7224,7 @@
 			(uuid "71ad9d85-0b01-4c70-84cd-2b9d615f3ea2")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C17")
 					(unit 1)
@@ -6832,61 +7236,73 @@
 		(lib_id "artemisa:GND")
 		(at 259.08 72.39 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0fb92d")
 		(property "Reference" "#PWR033"
 			(at 259.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 259.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 259.08 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 259.08 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 259.08 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "ecb6ca29-bc81-4d86-a7b8-609658eb9999")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR033")
 					(unit 1)
@@ -6898,61 +7314,73 @@
 		(lib_id "artemisa:12V")
 		(at 275.59 46.99 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0fe8dd")
 		(property "Reference" "#PWR035"
 			(at 275.59 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "12V"
 			(at 275.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 275.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 275.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 275.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "661572f7-4163-4248-b31d-f2871c8f7e95")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR035")
 					(unit 1)
@@ -6964,13 +7392,17 @@
 		(lib_id "artemisa:1N5819")
 		(at 233.68 53.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f102af5")
 		(property "Reference" "D1"
 			(at 233.68 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,6 +7411,8 @@
 		)
 		(property "Value" "1N5819"
 			(at 233.68 50.8254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,29 +7421,35 @@
 		)
 		(property "Footprint" ""
 			(at 234.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 234.95 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 233.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7019,7 +7459,7 @@
 			(uuid "c58a395a-51e9-47d2-8088-bd60ac0bd36e")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "D1")
 					(unit 1)
@@ -7031,13 +7471,17 @@
 		(lib_id "artemisa:CP")
 		(at 275.59 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10537c")
 		(property "Reference" "C18"
 			(at 278.13 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,6 +7491,8 @@
 		)
 		(property "Value" "330uF"
 			(at 271.78 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,29 +7502,35 @@
 		)
 		(property "Footprint" "artemisa:Radial_capacitor"
 			(at 275.59 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 275.59 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 275.59 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7088,7 +7540,7 @@
 			(uuid "a8a540ac-216b-4731-867a-a13bef8c7490")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C18")
 					(unit 1)
@@ -7100,61 +7552,73 @@
 		(lib_id "artemisa:GND")
 		(at 275.59 64.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f105dd7")
 		(property "Reference" "#PWR036"
 			(at 275.59 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 275.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 275.59 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 275.59 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 275.59 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "39899e4e-1504-4238-bffc-15283554c821")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR036")
 					(unit 1)
@@ -7166,13 +7630,17 @@
 		(lib_id "artemisa:R")
 		(at 247.65 71.12 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f11092b")
 		(property "Reference" "R33"
 			(at 247.65 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7181,6 +7649,8 @@
 		)
 		(property "Value" "1"
 			(at 247.65 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7189,29 +7659,35 @@
 		)
 		(property "Footprint" ""
 			(at 247.65 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 247.65 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 247.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7221,7 +7697,7 @@
 			(uuid "e504b4e3-8c7a-48dd-86db-1ffdb664bdf8")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "R33")
 					(unit 1)
@@ -7233,13 +7709,17 @@
 		(lib_id "artemisa:R")
 		(at 233.68 66.04 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f114279")
 		(property "Reference" "R32"
 			(at 233.68 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7248,6 +7728,8 @@
 		)
 		(property "Value" "200"
 			(at 233.68 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7256,29 +7738,35 @@
 		)
 		(property "Footprint" ""
 			(at 233.68 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 233.68 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 233.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7288,7 +7776,7 @@
 			(uuid "977162ef-71e0-44d2-b93c-9dc21e21b177")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "R32")
 					(unit 1)
@@ -7300,13 +7788,17 @@
 		(lib_id "artemisa:L")
 		(at 222.25 58.42 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f1252c2")
 		(property "Reference" "L1"
 			(at 218.44 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,6 +7807,8 @@
 		)
 		(property "Value" "150u"
 			(at 227.33 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,29 +7817,35 @@
 		)
 		(property "Footprint" ""
 			(at 222.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 222.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7355,7 +7855,7 @@
 			(uuid "cf3f04d7-a058-4ef1-be0e-1b259ee38379")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "L1")
 					(unit 1)
@@ -7367,13 +7867,17 @@
 		(lib_id "artemisa:R")
 		(at 266.7 74.93 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f133849")
 		(property "Reference" "R34"
 			(at 269.24 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7382,6 +7886,8 @@
 		)
 		(property "Value" "10K"
 			(at 266.7 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7390,29 +7896,35 @@
 		)
 		(property "Footprint" ""
 			(at 266.7 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 266.7 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7422,7 +7934,7 @@
 			(uuid "6e7936d7-b58c-40aa-bc98-a7b3cc948b00")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "R34")
 					(unit 1)
@@ -7434,13 +7946,17 @@
 		(lib_id "artemisa:R")
 		(at 266.7 87.63 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f135d6b")
 		(property "Reference" "R35"
 			(at 269.24 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7449,6 +7965,8 @@
 		)
 		(property "Value" "1K2"
 			(at 266.7 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7457,29 +7975,35 @@
 		)
 		(property "Footprint" ""
 			(at 266.7 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 266.7 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7489,7 +8013,7 @@
 			(uuid "4df0c729-7c7c-45f8-bd2c-4edf9c31bcd9")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "R35")
 					(unit 1)
@@ -7501,61 +8025,73 @@
 		(lib_id "artemisa:GND")
 		(at 266.7 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f13616c")
 		(property "Reference" "#PWR034"
 			(at 266.7 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 266.7 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 266.7 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 266.7 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 266.7 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "2d7c5c48-8744-4b4d-802e-80d9d1c37a75")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR034")
 					(unit 1)
@@ -7567,61 +8103,73 @@
 		(lib_id "artemisa:GND")
 		(at 190.5 82.55 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f13ff59")
 		(property "Reference" "#PWR031"
 			(at 190.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 190.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 190.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 190.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "c88593fc-b7e2-4379-bc75-a6bbb33bcac6")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "#PWR031")
 					(unit 1)
@@ -7633,13 +8181,17 @@
 		(lib_id "artemisa:Cap")
 		(at 196.85 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f148c00")
 		(property "Reference" "C16"
 			(at 199.1868 77.5716 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,6 +8201,8 @@
 		)
 		(property "Value" "1.5nF"
 			(at 199.1868 79.883 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,29 +8212,35 @@
 		)
 		(property "Footprint" ""
 			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7690,7 +8250,7 @@
 			(uuid "33df18ad-794f-4a3a-b172-a086f5630afb")
 		)
 		(instances
-			(project ""
+			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005eb649e5"
 					(reference "C16")
 					(unit 1)
