@@ -688,7 +688,7 @@
         "uuid": "dc3086ad-98b8-4235-9035-2e02c3c5e5b2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C8,#PWR128,#PWR130-131",
     "variants": []
   },
   "sheets": [

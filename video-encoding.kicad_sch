@@ -5,6 +5,229 @@
 	(uuid "58a13a12-36fa-4c7d-bb6f-67232f29a136")
 	(paper "A3")
 	(lib_symbols
+		(symbol "PCM_artemisa:LM1881"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 8.89 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM1881"
+				(at 12.446 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM1881_0_1"
+				(rectangle
+					(start -16.51 6.35)
+					(end 16.51 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM1881_1_1"
+				(pin output line
+					(at 21.59 3.81 180)
+					(length 5.08)
+					(name "CSYNCOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 3.81 0)
+					(length 5.08)
+					(name "CSYNCIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 1.27 180)
+					(length 5.08)
+					(name "VSYNCOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 -3.81 180)
+					(length 5.08)
+					(name "BURSTOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -3.81 0)
+					(length 5.08)
+					(name "RSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 -1.27 180)
+					(length 5.08)
+					(name "ODDEVENOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 11.43 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "artemisa:2N2222"
 			(pin_numbers
 				(hide yes)
@@ -1466,231 +1689,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:LM1881"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM1881"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM1881_0_1"
-				(rectangle
-					(start -12.7 6.35)
-					(end 12.7 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LM1881_1_1"
-				(pin output line
-					(at 17.78 3.81 180)
-					(length 5.08)
-					(name "CSYNCOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "CSYNCIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "VSYNCOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -11.43 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -3.81 180)
-					(length 5.08)
-					(name "BURSTOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "RSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -1.27 180)
-					(length 5.08)
-					(name "ODDEVENOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 11.43 270)
-					(length 5.08)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "artemisa:LM318"
 			(pin_names
 				(offset 0)
@@ -2146,12 +2144,6 @@
 		(uuid "3438e18b-983f-4ac4-8456-dfc7c0d7b59e")
 	)
 	(junction
-		(at 247.65 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ae51420-bf5d-4ea8-a7a6-ab79198d3b06")
-	)
-	(junction
 		(at 49.53 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2236,18 +2228,6 @@
 		(uuid "7baf37c1-ef90-4ebf-a2e2-c7129779122a")
 	)
 	(junction
-		(at 212.09 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8014f10c-8b13-4634-9c7e-17563c363e65")
-	)
-	(junction
-		(at 247.65 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83f3ddb4-65ee-40cc-aa78-9c947399bcd7")
-	)
-	(junction
 		(at 284.48 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2260,16 +2240,16 @@
 		(uuid "a2ad0cd8-ceae-4c1f-9e87-95bf423ecdfb")
 	)
 	(junction
+		(at 238.76 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a1f77b-6429-4101-b245-68942e2729ce")
+	)
+	(junction
 		(at 167.64 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a777bd2f-6d1d-4c29-be5b-c5bfe08c1d6c")
-	)
-	(junction
-		(at 229.87 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad6d241b-06c8-47a6-a02a-fbfc27765e45")
 	)
 	(junction
 		(at 284.48 181.61)
@@ -2336,11 +2316,11 @@
 		(uuid "3eb4c8a6-373f-4727-aee6-c561980ec54b")
 	)
 	(no_connect
-		(at 245.11 106.68)
+		(at 260.35 106.68)
 		(uuid "e07d98d3-b1da-40bb-9023-454a1986f8f7")
 	)
 	(no_connect
-		(at 245.11 104.14)
+		(at 260.35 104.14)
 		(uuid "f5d05359-e255-40fa-90f7-06d601cece59")
 	)
 	(wire
@@ -2395,6 +2375,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 109.22) (xy 274.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abc8587-a78b-4ace-bacc-536e6c6fdc66")
+	)
+	(wire
+		(pts
 			(xy 205.74 153.67) (xy 205.74 168.91)
 		)
 		(stroke
@@ -2445,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 101.6) (xy 217.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1543a785-fc90-4f78-91b3-eb7ffc989419")
+	)
+	(wire
+		(pts
 			(xy 294.64 200.66) (xy 294.64 189.23)
 		)
 		(stroke
@@ -2452,16 +2452,6 @@
 			(type default)
 		)
 		(uuid "158b7420-2142-48ea-8e94-2058006ee6f7")
-	)
-	(wire
-		(pts
-			(xy 205.74 101.6) (xy 212.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1623a5b2-dd5f-4386-a0cc-6c7ac8966c14")
 	)
 	(wire
 		(pts
@@ -2745,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 109.22) (xy 245.11 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd391e7-3218-40ed-b87c-dca63fe13270")
-	)
-	(wire
-		(pts
 			(xy 58.42 101.6) (xy 86.36 101.6)
 		)
 		(stroke
@@ -2925,16 +2905,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 101.6) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cac8ca3-be5e-424f-b08c-8661b70feccd")
-	)
-	(wire
-		(pts
 			(xy 144.78 168.91) (xy 152.4 168.91)
 		)
 		(stroke
@@ -3005,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 237.49 88.9)
+			(xy 252.73 90.17) (xy 243.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 229.87 88.9)
+			(xy 236.22 87.63) (xy 236.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3102,16 +3072,6 @@
 			(type default)
 		)
 		(uuid "677bfb19-98fa-4ea9-9b8c-cefc8d940762")
-	)
-	(wire
-		(pts
-			(xy 255.27 109.22) (xy 247.65 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b693e3-d6be-4b4d-80fa-ac4f9f947423")
 	)
 	(wire
 		(pts
@@ -3205,16 +3165,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 120.65) (xy 229.87 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773e3d08-fe24-4bea-b3ab-0fc2b4185ac3")
-	)
-	(wire
-		(pts
 			(xy 140.97 76.2) (xy 140.97 68.58)
 		)
 		(stroke
@@ -3262,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "7ddee273-4b36-4c67-92e8-e9045b70984c")
-	)
-	(wire
-		(pts
-			(xy 229.87 88.9) (xy 229.87 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e21cca4-9ef2-44be-9ec2-1eb6d82bb4e8")
 	)
 	(wire
 		(pts
@@ -3485,6 +3425,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 93.98) (xy 238.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992cefd8-44ca-4585-9464-b2d8fd7a0da5")
+	)
+	(wire
+		(pts
 			(xy 218.44 218.44) (xy 218.44 179.07)
 		)
 		(stroke
@@ -3575,23 +3525,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 232.41 88.9)
+			(xy 236.22 90.17) (xy 238.76 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5637af6-993e-47d6-ad1c-8f41fe428696")
-	)
-	(wire
-		(pts
-			(xy 212.09 109.22) (xy 214.63 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5bc01a6-e0d2-450d-a970-db51018738d1")
 	)
 	(wire
 		(pts
@@ -3705,16 +3645,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 101.6) (xy 255.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a97fc5-6ade-43e8-9f11-ce5f6a7de845")
-	)
-	(wire
-		(pts
 			(xy 205.74 185.42) (xy 205.74 200.66)
 		)
 		(stroke
@@ -3765,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 101.6) (xy 247.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0aaf054-87cc-427d-99cd-6190866985a9")
-	)
-	(wire
-		(pts
 			(xy 284.48 181.61) (xy 297.18 181.61)
 		)
 		(stroke
@@ -3805,13 +3725,23 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 246.38 91.44)
+			(xy 252.73 90.17) (xy 252.73 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4f9c163-fee9-4457-8dc7-4a0594775558")
+	)
+	(wire
+		(pts
+			(xy 238.76 116.84) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7829e94-9954-424c-af17-6dbd5f0525d6")
 	)
 	(wire
 		(pts
@@ -3852,6 +3782,16 @@
 			(type default)
 		)
 		(uuid "cf4ea401-53cb-44a7-b676-b79b999bc161")
+	)
+	(wire
+		(pts
+			(xy 212.09 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf973aec-0a79-435e-be81-6c553baece62")
 	)
 	(wire
 		(pts
@@ -4032,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "f35fb265-3da2-475b-b35e-0858ea85ae7d")
+	)
+	(wire
+		(pts
+			(xy 260.35 101.6) (xy 274.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48a849d-5942-4713-8be8-72d6c362e68e")
 	)
 	(wire
 		(pts
@@ -4354,7 +4304,7 @@
 		(uuid "871cf32f-9776-4c09-b974-f0a609d7aca0")
 	)
 	(label "~{CSYNC}"
-		(at 255.27 101.6 0)
+		(at 274.32 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4424,7 +4374,7 @@
 		(uuid "bca2b5ba-61f5-4dfe-8950-3c817ed0b4bd")
 	)
 	(label "~{BURST}"
-		(at 255.27 109.22 0)
+		(at 274.32 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,8 +6237,8 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:LM1881")
-		(at 229.87 105.41 0)
+		(lib_id "PCM_artemisa:LM1881")
+		(at 238.76 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6298,7 +6248,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e76bd34")
 		(property "Reference" "U13"
-			(at 222.25 95.25 0)
+			(at 231.14 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6308,7 +6258,7 @@
 			)
 		)
 		(property "Value" "LM1881"
-			(at 238.76 116.84 0)
+			(at 247.65 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6318,7 +6268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 115.57 0)
+			(at 238.76 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 115.57 0)
+			(at 238.76 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 105.41 0)
+			(at 238.76 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6705,7 +6655,7 @@
 	)
 	(symbol
 		(lib_id "artemisa:Cap")
-		(at 234.95 88.9 90)
+		(at 241.3 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6715,7 +6665,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e76bd59")
 		(property "Reference" "C15"
-			(at 238.76 87.63 90)
+			(at 245.11 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6726,7 +6676,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 242.57 90.17 90)
+			(at 248.92 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6737,7 +6687,7 @@
 			)
 		)
 		(property "Footprint" "artemisa:Disc_capacitor"
-			(at 234.95 88.9 0)
+			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 88.9 0)
+			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +6709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 88.9 0)
+			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +6736,7 @@
 	)
 	(symbol
 		(lib_id "artemisa:VCC")
-		(at 229.87 86.36 0)
+		(at 236.22 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6796,7 +6746,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e76bd63")
 		(property "Reference" "#PWR020"
-			(at 229.87 87.63 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6757,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 229.87 80.01 0)
+			(at 236.22 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 86.36 0)
+			(at 236.22 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,7 +6779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 86.36 0)
+			(at 236.22 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +6790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 86.36 0)
+			(at 236.22 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "artemisa:GND")
-		(at 229.87 120.65 0)
+		(at 238.76 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6875,7 +6825,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e76bd6a")
 		(property "Reference" "#PWR021"
-			(at 229.87 123.19 0)
+			(at 238.76 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,7 +6836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 118.11 0)
+			(at 238.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +6847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 120.65 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +6858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 120.65 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,7 +6869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 120.65 0)
+			(at 238.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7023,7 +6973,7 @@
 	)
 	(symbol
 		(lib_id "artemisa:GND")
-		(at 246.38 91.44 0)
+		(at 252.73 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7033,7 +6983,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e76bd7a")
 		(property "Reference" "#PWR022"
-			(at 246.38 93.98 0)
+			(at 252.73 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7044,7 +6994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 88.9 0)
+			(at 252.73 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,7 +7005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 91.44 0)
+			(at 252.73 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7066,7 +7016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 91.44 0)
+			(at 252.73 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 91.44 0)
+			(at 252.73 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

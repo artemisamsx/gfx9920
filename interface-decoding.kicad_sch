@@ -5,7 +5,7 @@
 	(uuid "9856b301-22bf-468e-984c-fc92360bfaba")
 	(paper "A4")
 	(lib_symbols
-		(symbol "artemisa:74HC32"
+		(symbol "PCM_artemisa:74HC32"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
@@ -1053,6 +1053,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "artemisa:Cap"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Cap"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Cap_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Cap_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "artemisa:GND"
 			(power global)
 			(pin_numbers
@@ -1158,12 +1303,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "artemisa:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_0"
+				(text "+5"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 2.54) (xy -0.635 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 102.87 86.36)
+		(at 104.14 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f47db9a-82c1-48b2-a4d3-85aaa9e267b8")
+	)
+	(junction
+		(at 118.11 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ecfd8cd-1ca1-4581-8a59-9f2cb043d089")
 	)
 	(junction
 		(at 166.37 83.82)
@@ -1203,6 +1469,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08380cbd-4d78-44ae-bbea-46ea582aa00f")
+	)
+	(wire
+		(pts
 			(xy 166.37 100.33) (xy 166.37 106.68)
 		)
 		(stroke
@@ -1213,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 102.87 91.44)
+			(xy 104.14 91.44) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1233,17 +1509,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 107.95 81.28)
+			(xy 142.24 67.31) (xy 142.24 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c83e835-6687-4685-b02b-b6f01d21dd1b")
+		(uuid "3d24411e-6224-446f-9b13-141bb3fe219b")
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 107.95 91.44)
+			(xy 104.14 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 102.87 81.28)
+			(xy 104.14 81.28) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1549,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 107.95 96.52)
+			(xy 118.11 63.5) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7f27eb-8818-4f2f-b528-357bdb1338e6")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a159a3ec-1ebc-49d8-a143-0489a0703041")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 109.22 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1579,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 102.87 86.36)
+			(xy 118.11 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13067f6-bd80-4db9-9a88-b1bfe77eff31")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1293,13 +1599,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 93.98) (xy 129.54 93.98)
+			(xy 139.7 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0700374-75c9-4356-8be4-c4d991f134f8")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d00fa0-3116-4597-b9c6-b6bec582ab93")
 	)
 	(wire
 		(pts
@@ -1361,9 +1677,19 @@
 		)
 		(uuid "fe611e94-02ee-40e6-8bd7-62c542c8eaed")
 	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd0c070-49a7-42f4-be50-b8ef3ae3a30f")
+	)
 	(hierarchical_label "~{RD}"
 		(shape input)
-		(at 91.44 96.52 180)
+		(at 92.71 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,7 +1722,7 @@
 	)
 	(hierarchical_label "~{VDPIOSL}"
 		(shape input)
-		(at 91.44 86.36 180)
+		(at 92.71 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1733,7 @@
 	)
 	(hierarchical_label "~{CSR}"
 		(shape output)
-		(at 138.43 93.98 0)
+		(at 139.7 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +1743,7 @@
 		(uuid "fd705f47-256c-435a-8de7-2a36c8b83009")
 	)
 	(symbol
-		(lib_id "artemisa:74HC32")
+		(lib_id "PCM_artemisa:74HC32")
 		(at 118.11 78.74 0)
 		(unit 1)
 		(body_style 2)
@@ -1428,7 +1754,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e97c4cb")
 		(property "Reference" "U7"
-			(at 118.745 70.485 0)
+			(at 124.714 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +1764,7 @@
 			)
 		)
 		(property "Value" "74HC32"
-			(at 118.745 72.7964 0)
+			(at 127 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1532,8 +1858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:74HC32")
-		(at 118.11 93.98 0)
+		(lib_id "PCM_artemisa:74HC32")
+		(at 119.38 102.87 0)
 		(unit 2)
 		(body_style 2)
 		(exclude_from_sim no)
@@ -1543,7 +1869,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e97c4d1")
 		(property "Reference" "U7"
-			(at 118.745 85.725 0)
+			(at 125.984 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1553,7 +1879,7 @@
 			)
 		)
 		(property "Value" "74HC32"
-			(at 118.745 88.0364 0)
+			(at 128.27 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1563,7 +1889,7 @@
 			)
 		)
 		(property "Footprint" "artemisa:DIP-14_300"
-			(at 118.11 93.98 0)
+			(at 119.38 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1900,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf"
-			(at 118.11 93.98 0)
+			(at 119.38 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +1911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 93.98 0)
+			(at 119.38 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:74HC32")
+		(lib_id "PCM_artemisa:74HC32")
 		(at 181.61 81.28 0)
 		(unit 3)
 		(body_style 2)
@@ -1762,7 +2088,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:74HC32")
+		(lib_id "PCM_artemisa:74HC32")
 		(at 181.61 97.79 0)
 		(unit 4)
 		(body_style 2)
@@ -1949,6 +2275,321 @@
 			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005e974557"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artemisa:GND")
+		(at 118.11 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75c8b9b0-6706-4ece-b614-9531a9e501fb")
+		(property "Reference" "#PWR0127"
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f0cbef8f-9159-402d-bec9-fea39fccb79b")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005e974557"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artemisa:Cap")
+		(at 128.27 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4aa0755-6ef9-4fd6-bab4-3c3fff06f483")
+		(property "Reference" "C9"
+			(at 132.08 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 127 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "artemisa:Disc_capacitor"
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "430365e6-11c2-4075-a134-ecd79bab5e01")
+		)
+		(pin "2"
+			(uuid "55391ccb-d023-47d2-bdd8-46a8dd936352")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005e974557"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artemisa:VCC")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbe22920-ad57-439c-b0b8-c74b6bb47b49")
+		(property "Reference" "#PWR0126"
+			(at 118.11 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 118.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8054fcf1-e1f3-4308-81e8-51d25ed53163")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005e974557"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artemisa:GND")
+		(at 142.24 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da8a28f3-ee7b-4d37-be05-7b81fe52d141")
+		(property "Reference" "#PWR0123"
+			(at 142.24 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f6e922bc-5917-4487-8f94-4f6b446f89a8")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005e974557"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
