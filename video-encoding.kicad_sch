@@ -228,6 +228,406 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_artemisa:MCP6284"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MCP6284"
+				(at 8.636 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP6284_0_0"
+				(text "+"
+					(at -3.81 3.81 0)
+					(effects
+						(font
+							(size 1.905 1.905)
+						)
+					)
+				)
+				(text "-"
+					(at -3.81 -2.54 0)
+					(effects
+						(font
+							(size 1.905 1.905)
+						)
+					)
+				)
+			)
+			(symbol "MCP6284_1_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -5.08 -7.62) (xy -5.08 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 8.89 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6284_2_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -5.08 -7.62) (xy -5.08 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6284_3_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -5.08 -7.62) (xy -5.08 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6284_4_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -5.08 -7.62) (xy -5.08 7.62) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "artemisa:2N2222"
 			(pin_numbers
 				(hide yes)
@@ -1689,192 +2089,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:LM318"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM318"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 8.89 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM318_0_0"
-				(text "+"
-					(at -3.81 3.81 0)
-					(effects
-						(font
-							(size 1.905 1.905)
-						)
-					)
-				)
-				(text "-"
-					(at -3.81 -2.54 0)
-					(effects
-						(font
-							(size 1.905 1.905)
-						)
-					)
-				)
-			)
-			(symbol "LM318_1_1"
-				(polyline
-					(pts
-						(xy 7.62 0) (xy -5.08 -7.62) (xy -5.08 7.62) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -10.16 -3.81 0)
-					(length 5.08)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 3.81 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 8.89 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "artemisa:R"
 			(pin_numbers
 				(hide yes)
@@ -2106,6 +2320,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Unit not used. Configured as \nvoltage follower of GND."
+		(exclude_from_sim no)
+		(at 369.316 200.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eadbb65-c091-4b62-a434-60903d3ed8f1")
 	)
 	(junction
 		(at 194.31 60.96)
@@ -2365,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 185.42) (xy 383.54 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f15f36-f6d9-4249-84f1-fb39971da9d1")
+	)
+	(wire
+		(pts
 			(xy 205.74 153.67) (xy 243.84 153.67)
 		)
 		(stroke
@@ -2372,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "08c98be2-0354-4c0a-94dd-bf2afd2ef72b")
+	)
+	(wire
+		(pts
+			(xy 351.79 196.85) (xy 351.79 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7a682e-2e9f-4693-a11e-01fcc3ffaaf8")
 	)
 	(wire
 		(pts
@@ -2552,6 +2796,16 @@
 			(type default)
 		)
 		(uuid "22ab2e30-20d1-4d7d-9e59-2bc4f493f607")
+	)
+	(wire
+		(pts
+			(xy 351.79 189.23) (xy 356.87 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241e158e-1d5a-46c5-8e85-e49f0edd0751")
 	)
 	(wire
 		(pts
@@ -2922,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "5066ab83-3d14-4d86-b407-84ec958c60a4")
+	)
+	(wire
+		(pts
+			(xy 351.79 181.61) (xy 351.79 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ebacbf-eb0a-456e-a3e0-fe02b8763a87")
 	)
 	(wire
 		(pts
@@ -3555,6 +3819,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 185.42) (xy 383.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87c92fd-540c-4c9a-9f13-08a61b875d21")
+	)
+	(wire
+		(pts
 			(xy 187.96 168.91) (xy 167.64 168.91)
 		)
 		(stroke
@@ -3815,6 +4089,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 181.61) (xy 351.79 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34667d1-9096-417a-b366-6a802eb33c77")
+	)
+	(wire
+		(pts
 			(xy 167.64 157.48) (xy 180.34 157.48)
 		)
 		(stroke
@@ -3972,6 +4256,16 @@
 			(type default)
 		)
 		(uuid "f35fb265-3da2-475b-b35e-0858ea85ae7d")
+	)
+	(wire
+		(pts
+			(xy 383.54 196.85) (xy 351.79 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3eca03c-240c-4c83-9bb5-2d270ed3b730")
 	)
 	(wire
 		(pts
@@ -4518,96 +4812,6 @@
 		(uuid "aedb7df0-c31b-4665-bd2b-d5f398c7812b")
 	)
 	(symbol
-		(lib_id "artemisa:LM318")
-		(at 307.34 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e766640")
-		(property "Reference" "U14"
-			(at 298.45 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 304.8 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "396a1255-3597-45bd-bebf-c8032423a08a")
-		)
-		(pin "3"
-			(uuid "e489d421-ccd1-4b42-9b1d-672f44f5937a")
-		)
-		(pin "4"
-			(uuid "a9f1b48d-49d4-4b36-9913-896bec95f931")
-		)
-		(pin "6"
-			(uuid "18c63344-bee4-46cb-975d-e6f3542c0909")
-		)
-		(pin "7"
-			(uuid "00f262c2-9404-45c4-a1b8-4b1ca1e6ef7b")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "artemisa:R")
 		(at 273.05 147.32 0)
 		(mirror y)
@@ -4941,7 +5145,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e766666")
 		(property "Reference" "R25"
-			(at 314.96 170.18 0)
+			(at 310.642 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5087,96 +5291,6 @@
 			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:LM318")
-		(at 307.34 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e766682")
-		(property "Reference" "U15"
-			(at 298.45 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 304.8 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "51b4e73c-89cf-4a27-ba83-fe698389925f")
-		)
-		(pin "3"
-			(uuid "4be67471-8022-494e-9622-2c70479b48e1")
-		)
-		(pin "4"
-			(uuid "40a9bdeb-b608-4098-aa64-6166fe7ef509")
-		)
-		(pin "6"
-			(uuid "a094b983-07aa-4392-9dfb-b4d710b6a560")
-		)
-		(pin "7"
-			(uuid "77f613f1-f2ce-44b4-9317-a708427a5c96")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -5347,163 +5461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
-		(at 308.61 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e76669a")
-		(property "Reference" "#PWR026"
-			(at 308.61 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 308.61 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d2bdd7f8-697d-4e76-9065-d34a0b10a8eb")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:VCC")
-		(at 308.61 176.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e7666a0")
-		(property "Reference" "#PWR025"
-			(at 308.61 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 308.61 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3434b5c-d47d-4e3e-8b84-b4488f8b6743")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "artemisa:R")
 		(at 308.61 200.66 0)
 		(mirror y)
@@ -5666,96 +5623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:LM318")
-		(at 307.34 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e7666c2")
-		(property "Reference" "U16"
-			(at 298.45 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 304.8 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee3c6f43-22ce-4f81-82cd-5d3b46e26767")
-		)
-		(pin "3"
-			(uuid "83eca1a9-dd57-4e8c-829e-d64639cc8fdf")
-		)
-		(pin "4"
-			(uuid "68e21374-1bc7-4097-94e6-0399fba191e1")
-		)
-		(pin "6"
-			(uuid "65df67e6-7a62-4415-8d1f-0b4e6fbb826f")
-		)
-		(pin "7"
-			(uuid "9761d335-1e5f-4084-aa02-3479653c69c7")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "artemisa:R")
 		(at 257.81 219.71 0)
 		(mirror y)
@@ -5912,163 +5779,6 @@
 			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:GND")
-		(at 308.61 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e7666da")
-		(property "Reference" "#PWR028"
-			(at 308.61 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 308.61 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6dd5c4e7-ddd6-4188-adac-72bc9b9c7620")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:VCC")
-		(at 308.61 209.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e7666e0")
-		(property "Reference" "#PWR027"
-			(at 308.61 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 308.61 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec64d090-db21-4085-90e1-b8a06f631eb9")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8085,96 +7795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:LM318")
-		(at 177.8 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005eddbc74")
-		(property "Reference" "U9"
-			(at 168.91 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 175.26 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45ead97e-921f-4ab8-b9d6-d024bde090be")
-		)
-		(pin "3"
-			(uuid "1b998e29-cd89-443d-bfb1-3c394e67ff46")
-		)
-		(pin "4"
-			(uuid "0b0b54f3-4810-4944-ba61-2149ded54968")
-		)
-		(pin "6"
-			(uuid "2b2efb06-9a1c-48aa-b101-041c6c96e9a0")
-		)
-		(pin "7"
-			(uuid "a66439e9-43de-4a68-a196-e3dbdf9cebeb")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "artemisa:Cap")
 		(at 140.97 66.04 0)
 		(unit 1)
@@ -8484,747 +8104,6 @@
 			(project "gfx-9920"
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:LM318")
-		(at 190.5 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee5c467")
-		(property "Reference" "U10"
-			(at 181.61 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 187.96 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b797d36-47bd-48f8-b77c-f79d3543f7cb")
-		)
-		(pin "3"
-			(uuid "3110a922-14a0-44ef-a54c-3b575cbe8b26")
-		)
-		(pin "4"
-			(uuid "bd205ad9-d01d-49f8-9fa7-88d1a22abd12")
-		)
-		(pin "6"
-			(uuid "18438d39-ef44-4988-92fe-4973194a64dd")
-		)
-		(pin "7"
-			(uuid "c029af1d-7d70-4a98-93e8-b40ea65c34fc")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:LM318")
-		(at 190.5 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee6dfd3")
-		(property "Reference" "U11"
-			(at 181.61 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 187.96 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "51a18824-0fcf-4d4f-8d20-bd31a2762e5f")
-		)
-		(pin "3"
-			(uuid "7a9800c7-a35c-4bd6-a8ea-5505034dfac5")
-		)
-		(pin "4"
-			(uuid "1d3304a9-81c4-43f3-9919-a80d673c6d55")
-		)
-		(pin "6"
-			(uuid "d8a7f361-0aed-40f1-a732-2f214845d7cd")
-		)
-		(pin "7"
-			(uuid "57357f45-62f0-4bed-9d45-9b6f9ea1d2bc")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:LM318")
-		(at 190.5 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee6fc1d")
-		(property "Reference" "U12"
-			(at 181.61 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM318"
-			(at 187.96 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fad712b9-4a1c-4719-9333-7151754b1514")
-		)
-		(pin "3"
-			(uuid "ef08bb15-e895-424f-b080-e6cb7f40813e")
-		)
-		(pin "4"
-			(uuid "7232b04b-82c2-47d9-ab10-9f88b19e580e")
-		)
-		(pin "6"
-			(uuid "79390e23-a43a-442e-9fa7-5361b42442dd")
-		)
-		(pin "7"
-			(uuid "84d099d2-32b2-440e-ae5a-0b547b2df816")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:VCC")
-		(at 191.77 144.78 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee71615")
-		(property "Reference" "#PWR014"
-			(at 191.77 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 191.77 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "069c8417-e3f8-4635-a39b-ff6786e127b1")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:VCC")
-		(at 191.77 176.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee71ef0")
-		(property "Reference" "#PWR016"
-			(at 191.77 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 191.77 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a642de2d-8b4e-4ade-9bee-76f3006e21b2")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:VCC")
-		(at 191.77 209.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee72364")
-		(property "Reference" "#PWR018"
-			(at 191.77 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 191.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6218ff2-b902-4b7b-8c19-edf5c27f0e06")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:GND")
-		(at 191.77 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee72837")
-		(property "Reference" "#PWR019"
-			(at 191.77 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9c00a612-de95-4766-a807-ce127dc0139a")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:GND")
-		(at 191.77 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee72df0")
-		(property "Reference" "#PWR017"
-			(at 191.77 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b0a4174c-28c6-46d9-addf-7d13bb84ae0b")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "artemisa:GND")
-		(at 191.77 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee73248")
-		(property "Reference" "#PWR015"
-			(at 191.77 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c4fb1127-c7f0-4dd4-8b17-695833ecc25f")
-		)
-		(instances
-			(project "gfx-9920"
-				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11532,6 +10411,1004 @@
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "R36")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 177.8 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d5395a2-569a-4d1b-8988-bacd3fa29f48")
+		(property "Reference" "U17"
+			(at 185.42 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 187.452 65.278 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d272cdc9-fe1c-4b03-976d-d12376d7cf58")
+		)
+		(pin "14"
+			(uuid "1df52a00-c5b5-441b-8385-ea9c1c984356")
+		)
+		(pin "10"
+			(uuid "6d807fde-7530-42e6-95a0-a71c53df1029")
+		)
+		(pin "9"
+			(uuid "ede8fd6a-ab33-4f9c-b456-5f7897253fb0")
+		)
+		(pin "4"
+			(uuid "0f5d268d-a1d7-4038-803a-d42f49403b04")
+		)
+		(pin "8"
+			(uuid "f9d19684-e23a-4381-aabc-8aac0824e4a2")
+		)
+		(pin "12"
+			(uuid "0330280a-6ff2-47e7-93fd-161790123b10")
+		)
+		(pin "13"
+			(uuid "d7ffc4cd-5cce-4a70-ba8e-49e0f59cd7e1")
+		)
+		(pin "5"
+			(uuid "6c46ac55-6d3d-45b6-bbe2-a6d91cfb528a")
+		)
+		(pin "3"
+			(uuid "efc7e607-abd8-4745-8ec1-f2c1647dc2ae")
+		)
+		(pin "2"
+			(uuid "081bde68-7726-42da-b7a3-f95667657751")
+		)
+		(pin "11"
+			(uuid "ebce395f-2229-43aa-b07a-665533c1befc")
+		)
+		(pin "6"
+			(uuid "a8ae18d7-ff94-4a0f-ad78-08688ae1e120")
+		)
+		(pin "1"
+			(uuid "af3f566a-eae2-400b-ad3c-5275ade9104e")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 190.5 185.42 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11afec02-0a76-4af5-9720-d3cc100df699")
+		(property "Reference" "U17"
+			(at 195.326 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 197.104 191.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d272cdc9-fe1c-4b03-976d-d12376d7cf58")
+		)
+		(pin "14"
+			(uuid "1df52a00-c5b5-441b-8385-ea9c1c984356")
+		)
+		(pin "10"
+			(uuid "6d807fde-7530-42e6-95a0-a71c53df1029")
+		)
+		(pin "9"
+			(uuid "ede8fd6a-ab33-4f9c-b456-5f7897253fb0")
+		)
+		(pin "4"
+			(uuid "0f5d268d-a1d7-4038-803a-d42f49403b04")
+		)
+		(pin "8"
+			(uuid "f9d19684-e23a-4381-aabc-8aac0824e4a2")
+		)
+		(pin "12"
+			(uuid "0330280a-6ff2-47e7-93fd-161790123b10")
+		)
+		(pin "13"
+			(uuid "d7ffc4cd-5cce-4a70-ba8e-49e0f59cd7e1")
+		)
+		(pin "5"
+			(uuid "6c46ac55-6d3d-45b6-bbe2-a6d91cfb528a")
+		)
+		(pin "3"
+			(uuid "efc7e607-abd8-4745-8ec1-f2c1647dc2ae")
+		)
+		(pin "2"
+			(uuid "081bde68-7726-42da-b7a3-f95667657751")
+		)
+		(pin "11"
+			(uuid "ebce395f-2229-43aa-b07a-665533c1befc")
+		)
+		(pin "6"
+			(uuid "a8ae18d7-ff94-4a0f-ad78-08688ae1e120")
+		)
+		(pin "1"
+			(uuid "af3f566a-eae2-400b-ad3c-5275ade9104e")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U17")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 367.03 185.42 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b629490-9c13-4f56-81de-6a90c6040aaf")
+		(property "Reference" "U18"
+			(at 370.586 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 371.094 192.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "4941deca-20ce-402d-80e7-ad00e77226ad")
+		)
+		(pin "7"
+			(uuid "5ea67f34-6011-4444-8e1e-da8f15a06e0c")
+		)
+		(pin "10"
+			(uuid "db3b04d9-7f60-4797-a404-fa0858792fbe")
+		)
+		(pin "2"
+			(uuid "75ff305e-6702-457a-b401-3cc0263aee63")
+		)
+		(pin "8"
+			(uuid "19db338f-6276-4028-95c2-0699c129da84")
+		)
+		(pin "14"
+			(uuid "1b710a82-7275-42db-a5b9-49cd703ea34c")
+		)
+		(pin "3"
+			(uuid "2d867875-3170-43b7-89c1-79e1437b6385")
+		)
+		(pin "5"
+			(uuid "6b19f5f7-5a08-435d-9bf5-5d020357a868")
+		)
+		(pin "13"
+			(uuid "3a75e371-4390-4c46-8d6e-09656693cbf3")
+		)
+		(pin "11"
+			(uuid "faeddf98-1cb4-4089-ae8f-d55b8d171b87")
+		)
+		(pin "1"
+			(uuid "4b7955bb-1009-433d-8c5b-03b3f7ee33b6")
+		)
+		(pin "4"
+			(uuid "120e9cde-7ce6-4e82-8726-172904f840b8")
+		)
+		(pin "12"
+			(uuid "6e111c35-5d7e-49c0-81bb-fa334d72d38d")
+		)
+		(pin "9"
+			(uuid "ae200cc7-3f67-458c-91fc-ad88cb542623")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U18")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 307.34 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ea5aa6b-e00e-44f9-8b4d-93725a02af43")
+		(property "Reference" "U18"
+			(at 314.452 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 316.484 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "4941deca-20ce-402d-80e7-ad00e77226ad")
+		)
+		(pin "7"
+			(uuid "5ea67f34-6011-4444-8e1e-da8f15a06e0c")
+		)
+		(pin "10"
+			(uuid "db3b04d9-7f60-4797-a404-fa0858792fbe")
+		)
+		(pin "2"
+			(uuid "75ff305e-6702-457a-b401-3cc0263aee63")
+		)
+		(pin "8"
+			(uuid "19db338f-6276-4028-95c2-0699c129da84")
+		)
+		(pin "14"
+			(uuid "1b710a82-7275-42db-a5b9-49cd703ea34c")
+		)
+		(pin "3"
+			(uuid "2d867875-3170-43b7-89c1-79e1437b6385")
+		)
+		(pin "5"
+			(uuid "6b19f5f7-5a08-435d-9bf5-5d020357a868")
+		)
+		(pin "13"
+			(uuid "3a75e371-4390-4c46-8d6e-09656693cbf3")
+		)
+		(pin "11"
+			(uuid "faeddf98-1cb4-4089-ae8f-d55b8d171b87")
+		)
+		(pin "1"
+			(uuid "4b7955bb-1009-433d-8c5b-03b3f7ee33b6")
+		)
+		(pin "4"
+			(uuid "120e9cde-7ce6-4e82-8726-172904f840b8")
+		)
+		(pin "12"
+			(uuid "6e111c35-5d7e-49c0-81bb-fa334d72d38d")
+		)
+		(pin "9"
+			(uuid "ae200cc7-3f67-458c-91fc-ad88cb542623")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 307.34 185.42 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90f4d277-0502-4e5b-a090-ed3b8e32aa22")
+		(property "Reference" "U18"
+			(at 313.944 180.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 315.468 189.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "4941deca-20ce-402d-80e7-ad00e77226ad")
+		)
+		(pin "7"
+			(uuid "5ea67f34-6011-4444-8e1e-da8f15a06e0c")
+		)
+		(pin "10"
+			(uuid "db3b04d9-7f60-4797-a404-fa0858792fbe")
+		)
+		(pin "2"
+			(uuid "75ff305e-6702-457a-b401-3cc0263aee63")
+		)
+		(pin "8"
+			(uuid "19db338f-6276-4028-95c2-0699c129da84")
+		)
+		(pin "14"
+			(uuid "1b710a82-7275-42db-a5b9-49cd703ea34c")
+		)
+		(pin "3"
+			(uuid "2d867875-3170-43b7-89c1-79e1437b6385")
+		)
+		(pin "5"
+			(uuid "6b19f5f7-5a08-435d-9bf5-5d020357a868")
+		)
+		(pin "13"
+			(uuid "3a75e371-4390-4c46-8d6e-09656693cbf3")
+		)
+		(pin "11"
+			(uuid "faeddf98-1cb4-4089-ae8f-d55b8d171b87")
+		)
+		(pin "1"
+			(uuid "4b7955bb-1009-433d-8c5b-03b3f7ee33b6")
+		)
+		(pin "4"
+			(uuid "120e9cde-7ce6-4e82-8726-172904f840b8")
+		)
+		(pin "12"
+			(uuid "6e111c35-5d7e-49c0-81bb-fa334d72d38d")
+		)
+		(pin "9"
+			(uuid "ae200cc7-3f67-458c-91fc-ad88cb542623")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artemisa:GND")
+		(at 351.79 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97edd54f-f562-468f-a56a-01eba205c518")
+		(property "Reference" "#PWR025"
+			(at 351.79 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a2f8838b-7e1b-494f-af46-045ccb6f5a33")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 190.5 153.67 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a977e37c-eeab-4e43-b366-a296c14adcc3")
+		(property "Reference" "U17"
+			(at 194.31 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 197.358 159.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d272cdc9-fe1c-4b03-976d-d12376d7cf58")
+		)
+		(pin "14"
+			(uuid "1df52a00-c5b5-441b-8385-ea9c1c984356")
+		)
+		(pin "10"
+			(uuid "6d807fde-7530-42e6-95a0-a71c53df1029")
+		)
+		(pin "9"
+			(uuid "ede8fd6a-ab33-4f9c-b456-5f7897253fb0")
+		)
+		(pin "4"
+			(uuid "0f5d268d-a1d7-4038-803a-d42f49403b04")
+		)
+		(pin "8"
+			(uuid "f9d19684-e23a-4381-aabc-8aac0824e4a2")
+		)
+		(pin "12"
+			(uuid "0330280a-6ff2-47e7-93fd-161790123b10")
+		)
+		(pin "13"
+			(uuid "d7ffc4cd-5cce-4a70-ba8e-49e0f59cd7e1")
+		)
+		(pin "5"
+			(uuid "6c46ac55-6d3d-45b6-bbe2-a6d91cfb528a")
+		)
+		(pin "3"
+			(uuid "efc7e607-abd8-4745-8ec1-f2c1647dc2ae")
+		)
+		(pin "2"
+			(uuid "081bde68-7726-42da-b7a3-f95667657751")
+		)
+		(pin "11"
+			(uuid "ebce395f-2229-43aa-b07a-665533c1befc")
+		)
+		(pin "6"
+			(uuid "a8ae18d7-ff94-4a0f-ad78-08688ae1e120")
+		)
+		(pin "1"
+			(uuid "af3f566a-eae2-400b-ad3c-5275ade9104e")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U17")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 307.34 218.44 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d86adc28-7f53-491c-96e5-8a03a490285c")
+		(property "Reference" "U18"
+			(at 311.404 212.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 313.944 223.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "4941deca-20ce-402d-80e7-ad00e77226ad")
+		)
+		(pin "7"
+			(uuid "5ea67f34-6011-4444-8e1e-da8f15a06e0c")
+		)
+		(pin "10"
+			(uuid "db3b04d9-7f60-4797-a404-fa0858792fbe")
+		)
+		(pin "2"
+			(uuid "75ff305e-6702-457a-b401-3cc0263aee63")
+		)
+		(pin "8"
+			(uuid "19db338f-6276-4028-95c2-0699c129da84")
+		)
+		(pin "14"
+			(uuid "1b710a82-7275-42db-a5b9-49cd703ea34c")
+		)
+		(pin "3"
+			(uuid "2d867875-3170-43b7-89c1-79e1437b6385")
+		)
+		(pin "5"
+			(uuid "6b19f5f7-5a08-435d-9bf5-5d020357a868")
+		)
+		(pin "13"
+			(uuid "3a75e371-4390-4c46-8d6e-09656693cbf3")
+		)
+		(pin "11"
+			(uuid "faeddf98-1cb4-4089-ae8f-d55b8d171b87")
+		)
+		(pin "1"
+			(uuid "4b7955bb-1009-433d-8c5b-03b3f7ee33b6")
+		)
+		(pin "4"
+			(uuid "120e9cde-7ce6-4e82-8726-172904f840b8")
+		)
+		(pin "12"
+			(uuid "6e111c35-5d7e-49c0-81bb-fa334d72d38d")
+		)
+		(pin "9"
+			(uuid "ae200cc7-3f67-458c-91fc-ad88cb542623")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:MCP6284")
+		(at 190.5 218.44 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e82427f6-264f-4723-86c7-c1b031cfbfd2")
+		(property "Reference" "U17"
+			(at 196.088 213.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP6284"
+			(at 197.612 223.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d272cdc9-fe1c-4b03-976d-d12376d7cf58")
+		)
+		(pin "14"
+			(uuid "1df52a00-c5b5-441b-8385-ea9c1c984356")
+		)
+		(pin "10"
+			(uuid "6d807fde-7530-42e6-95a0-a71c53df1029")
+		)
+		(pin "9"
+			(uuid "ede8fd6a-ab33-4f9c-b456-5f7897253fb0")
+		)
+		(pin "4"
+			(uuid "0f5d268d-a1d7-4038-803a-d42f49403b04")
+		)
+		(pin "8"
+			(uuid "f9d19684-e23a-4381-aabc-8aac0824e4a2")
+		)
+		(pin "12"
+			(uuid "0330280a-6ff2-47e7-93fd-161790123b10")
+		)
+		(pin "13"
+			(uuid "d7ffc4cd-5cce-4a70-ba8e-49e0f59cd7e1")
+		)
+		(pin "5"
+			(uuid "6c46ac55-6d3d-45b6-bbe2-a6d91cfb528a")
+		)
+		(pin "3"
+			(uuid "efc7e607-abd8-4745-8ec1-f2c1647dc2ae")
+		)
+		(pin "2"
+			(uuid "081bde68-7726-42da-b7a3-f95667657751")
+		)
+		(pin "11"
+			(uuid "ebce395f-2229-43aa-b07a-665533c1befc")
+		)
+		(pin "6"
+			(uuid "a8ae18d7-ff94-4a0f-ad78-08688ae1e120")
+		)
+		(pin "1"
+			(uuid "af3f566a-eae2-400b-ad3c-5275ade9104e")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "U17")
+					(unit 4)
 				)
 			)
 		)
