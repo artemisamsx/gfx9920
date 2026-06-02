@@ -1773,7 +1773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "artemisa:DIP-14_300"
+		(property "Footprint" "PCM_artemisa:DIP-14_300"
 			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1888,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "artemisa:DIP-14_300"
+		(property "Footprint" "PCM_artemisa:DIP-14_300"
 			(at 119.38 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2003,7 +2003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "artemisa:DIP-14_300"
+		(property "Footprint" "PCM_artemisa:DIP-14_300"
 			(at 181.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2118,7 +2118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "artemisa:DIP-14_300"
+		(property "Footprint" "PCM_artemisa:DIP-14_300"
 			(at 181.61 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2391,7 +2391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "artemisa:Disc_capacitor"
+		(property "Footprint" "PCM_artemisa:Disc_capacitor"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
