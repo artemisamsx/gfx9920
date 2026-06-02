@@ -2100,7 +2100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "artemisa:DIP-28_600"
+		(property "Footprint" "PCM_artemisa:DIP-28_600"
 			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "artemisa:Disc_capacitor"
+		(property "Footprint" "PCM_artemisa:Disc_capacitor"
 			(at 139.7 63.5 0)
 			(hide yes)
 			(show_name no)
