@@ -5400,7 +5400,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 259.08 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5643,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 259.08 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7970,7 +7970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 157.48 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +8370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 157.48 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +8534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "390"
 			(at 157.48 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
