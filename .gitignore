@@ -1,1 +1,17 @@
+# KiCad lock files
 ~*.lck
+*.lck
+
+# KiCad per-user/local state and caches
+*.kicad_prl
+fp-info-cache
+*-cache.lib
+*.kicad_sym-bak
+
+# KiCad backups and autosaves
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*.bak
+*.bck
+

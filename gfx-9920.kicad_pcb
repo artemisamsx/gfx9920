@@ -169,7 +169,7 @@
 	(net 94 "/VRAM Decoding Logic/A11")
 	(net 95 "/VRAM Decoding Logic/A12")
 	(net 96 "/VRAM Decoding Logic/A13")
-	(footprint "artemisa:GFX_conn"
+	(footprint "PCM_artemisa:GFX_conn"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd21455")
 		(at 88.45 142.28 90)
@@ -856,7 +856,7 @@
 			(net 6 "Net-(J1-Pad50)")
 			(uuid "57c0c267-8bf9-4cc7-b734-d71a239ac313")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/GFX_conn.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/GFX_conn.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -868,7 +868,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Radial_capacitor"
+	(footprint "PCM_artemisa:Radial_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd21590")
 		(at 50.35 114.34 180)
@@ -2227,7 +2227,7 @@
 			(net 2 "GND")
 			(uuid "4e27930e-1827-4788-aa6b-487321d46602")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Radial_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Radial_capacitor.wrl"
 			(offset
 				(xyz 0 0 1.269999981)
 			)
@@ -2239,7 +2239,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-40_600"
+	(footprint "PCM_artemisa:DIP-40_600"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2184a")
 		(at 78.29 185.46 180)
@@ -2827,7 +2827,7 @@
 			(net 1 "Net-(C1-Pad1)")
 			(uuid "6e105729-aba0-497c-a99e-c32d2b3ddb6d")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/DIP-40_600.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-40_600.wrl"
 			(offset
 				(xyz 7.5 -24 0)
 			)
@@ -2839,7 +2839,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:RCA_yellow"
+	(footprint "PCM_artemisa:RCA_yellow"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd218dd")
 		(at 56.065 52.11 180)
@@ -3102,7 +3102,7 @@
 			(net 2 "GND")
 			(uuid "1d9cdadc-9036-4a95-b6db-fa7b3b74c869")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/RCA_yellow.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/RCA_yellow.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3114,7 +3114,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-14_300"
+	(footprint "PCM_artemisa:DIP-14_300"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd226c4")
 		(at 84.005 87.67)
@@ -3468,7 +3468,7 @@
 			(net 40 "~")
 			(uuid "a5c8e189-1ddc-4a66-984b-e0fd1529d346")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/DIP-14_300.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-14_300.wrl"
 			(offset
 				(xyz 4 -7.5 0)
 			)
@@ -3480,7 +3480,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd22c9b")
 		(at 89.085 83.86 180)
@@ -3715,7 +3715,7 @@
 			(net 2 "GND")
 			(uuid "143ed874-a01f-4ced-ba4e-bbb66ddd1f70")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3727,7 +3727,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd22d4f")
 		(at 47.81 69.93 -90)
@@ -3962,7 +3962,7 @@
 			(net 2 "GND")
 			(uuid "88668202-3f0b-4d07-84d4-dcd790f57272")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3974,7 +3974,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd25ab9")
 		(at 50.35 104.815 -90)
@@ -4209,7 +4209,7 @@
 			(net 2 "GND")
 			(uuid "b873bc5d-a9af-4bd9-afcb-87ce4d417120")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4221,7 +4221,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd25b31")
 		(at 50.35 121.325 -90)
@@ -4456,7 +4456,7 @@
 			(net 2 "GND")
 			(uuid "5fc9acb6-6dbb-4598-825b-4b9e7c4c67c4")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4468,7 +4468,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-20_300"
+	(footprint "PCM_artemisa:DIP-20_300"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd25bf5")
 		(at 54.16 126.365 90)
@@ -4876,7 +4876,7 @@
 			(net 40 "~")
 			(uuid "1e48966e-d29d-4521-8939-ec8ac570431d")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/DIP-20_300.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-20_300.wrl"
 			(offset
 				(xyz 3.75 -11.5 0)
 			)
@@ -4888,7 +4888,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Mounting_hole_M3"
+	(footprint "PCM_artemisa:Mounting_hole_M3"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd269f4")
 		(at 90 184)
@@ -4984,7 +4984,7 @@
 			(uuid "0cc9bf07-55b9-458f-b8aa-41b2f51fa940")
 		)
 	)
-	(footprint "artemisa:Mounting_hole_M3"
+	(footprint "PCM_artemisa:Mounting_hole_M3"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd26a7c")
 		(at 48 184)
@@ -5080,7 +5080,7 @@
 			(uuid "65134029-dbd2-409a-85a8-13c2a33ff019")
 		)
 	)
-	(footprint "artemisa:Mounting_hole_M3"
+	(footprint "PCM_artemisa:Mounting_hole_M3"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd26a8e")
 		(at 48 42)
@@ -5176,7 +5176,7 @@
 			(uuid "34a74736-156e-4bf3-9200-cd137cfa59da")
 		)
 	)
-	(footprint "artemisa:Mounting_hole_M3"
+	(footprint "PCM_artemisa:Mounting_hole_M3"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd26def")
 		(at 90 42)
@@ -5272,7 +5272,7 @@
 			(uuid "84e5506c-143e-495f-9aa4-d3a71622f213")
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2e0a6")
 		(at 53.525 172.125 90)
@@ -5507,7 +5507,7 @@
 			(net 2 "GND")
 			(uuid "240c10af-51b5-420e-a6f4-a2c8f5db1db5")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5519,7 +5519,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2e2f8")
 		(at 50.35 88.94 -90)
@@ -5754,7 +5754,7 @@
 			(net 2 "GND")
 			(uuid "a7531a95-7ca1-4f34-955e-18120cec99e6")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5766,7 +5766,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Crystal"
+	(footprint "PCM_artemisa:Crystal"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2f33f")
 		(at 57.97 170.95406 90)
@@ -6359,7 +6359,7 @@
 			(net 3 "Net-(C2-Pad1)")
 			(uuid "a7f2e97b-29f3-44fd-bf8a-97a3c1528b61")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/Crystal.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Crystal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6371,7 +6371,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2f3c3")
 		(at 57.97 178.475 180)
@@ -6606,7 +6606,7 @@
 			(net 2 "GND")
 			(uuid "7e0a03ae-d054-4f76-a131-5c09b8dc1636")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6618,7 +6618,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2f3ff")
 		(at 55.43 163.235)
@@ -6853,7 +6853,7 @@
 			(net 2 "GND")
 			(uuid "2e842263-c0ba-46fd-a760-6624d4c78278")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6865,7 +6865,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-20_300"
+	(footprint "PCM_artemisa:DIP-20_300"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2f68d")
 		(at 54.16 94.02 90)
@@ -7273,7 +7273,7 @@
 			(net 40 "~")
 			(uuid "d5641ac9-9be7-46bf-90b3-6c83d852b5ba")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/DIP-20_300.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-20_300.wrl"
 			(offset
 				(xyz 3.75 -11.5 0)
 			)
@@ -7285,7 +7285,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-14_300"
+	(footprint "PCM_artemisa:DIP-14_300"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2f9c8")
 		(at 49.08 142.28)
@@ -7639,7 +7639,7 @@
 			(net 40 "~")
 			(uuid "da6f4122-0ecc-496f-b0fd-e4abef534976")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/DIP-14_300.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-14_300.wrl"
 			(offset
 				(xyz 4 -7.5 0)
 			)
@@ -7651,7 +7651,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Disc_capacitor"
+	(footprint "PCM_artemisa:Disc_capacitor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2fa1e")
 		(at 54.16 138.47 180)
@@ -7886,7 +7886,7 @@
 			(net 2 "GND")
 			(uuid "d69a5fdf-de15-4ec9-94f6-f9ee2f4b69fa")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Disc_capacitor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Disc_capacitor.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7898,7 +7898,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:Axial_resistor"
+	(footprint "PCM_artemisa:Axial_resistor"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd2ff46")
 		(at 49.08 176.57 90)
@@ -8142,7 +8142,7 @@
 			(net 2 "GND")
 			(uuid "1bdd5841-68b7-42e2-9447-cbdb608d8a08")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/Axial_resistor.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/Axial_resistor.wrl"
 			(offset
 				(xyz 5.079999924 0 0)
 			)
@@ -8154,7 +8154,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:MSX_logo"
+	(footprint "PCM_artemisa:MSX_logo"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005bd34543")
 		(at 47.175 53.38 90)
@@ -8389,7 +8389,7 @@
 			(uuid "7f9683c1-2203-43df-8fa1-719a0dc360df")
 		)
 	)
-	(footprint "artemisa:DIP-28_600"
+	(footprint "PCM_artemisa:DIP-28_600"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005be7ea69")
 		(at 51.62 78.78 90)
@@ -8869,7 +8869,7 @@
 			(net 40 "~")
 			(uuid "b3d08afa-f296-4e3b-8825-73b6331d35bf")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/DIP-28_600.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-28_600.wrl"
 			(offset
 				(xyz 7.5 -16.5 0)
 			)
@@ -8881,7 +8881,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:RCA_white"
+	(footprint "PCM_artemisa:RCA_white"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005be7f545")
 		(at 68.765 52.11 180)
@@ -9144,7 +9144,7 @@
 			(net 2 "GND")
 			(uuid "31e08896-1992-4725-96d9-9d2728bca7a3")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/RCA_white.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/RCA_white.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9156,7 +9156,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:RCA_red"
+	(footprint "PCM_artemisa:RCA_red"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005be7f563")
 		(at 81.465 52.11 180)
@@ -9419,7 +9419,7 @@
 			(net 2 "GND")
 			(uuid "03c52831-5dc5-43c5-a442-8d23643b46fb")
 		)
-		(model "${KIPRJMOD}/libs/artemisa.3dshapes/RCA_red.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/RCA_red.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9431,7 +9431,7 @@
 			)
 		)
 	)
-	(footprint "artemisa:DIP-20_300"
+	(footprint "PCM_artemisa:DIP-20_300"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005c94fd24")
 		(at 54.16 109.855 90)
@@ -9839,7 +9839,7 @@
 			(net 40 "~")
 			(uuid "e0c7ddff-8c90-465f-be62-21fb49b059fa")
 		)
-		(model "${KIPRJMOD}/libs//artemisa.3dshapes/DIP-20_300.wrl"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_artemisamsx_kicadlibs/artemisa.3dshapes/DIP-20_300.wrl"
 			(offset
 				(xyz 3.75 -11.5 0)
 			)

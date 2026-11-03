@@ -804,7 +804,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:CP"
+		(symbol "PCM_artemisa:CP"
 			(pin_numbers
 				(hide yes)
 			)
@@ -973,7 +973,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:Cap"
+		(symbol "PCM_artemisa:Cap"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1118,7 +1118,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:Crystal"
+		(symbol "PCM_artemisa:Crystal"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1272,7 +1272,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:GND"
+		(symbol "PCM_artemisa:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1377,7 +1377,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:VCC"
+		(symbol "PCM_artemisa:VCC"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2972,7 +2972,7 @@
 		(uuid "fc4dbe09-706b-463e-a9c3-eedbd6259a2f")
 	)
 	(symbol
-		(lib_id "artemisa:Crystal")
+		(lib_id "PCM_artemisa:Crystal")
 		(at 118.11 116.84 270)
 		(unit 1)
 		(body_style 1)
@@ -3051,7 +3051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:CP")
+		(lib_id "PCM_artemisa:CP")
 		(at 107.95 111.76 270)
 		(unit 1)
 		(body_style 1)
@@ -3132,7 +3132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:CP")
+		(lib_id "PCM_artemisa:CP")
 		(at 107.95 121.92 270)
 		(unit 1)
 		(body_style 1)
@@ -3213,7 +3213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:Cap")
+		(lib_id "PCM_artemisa:Cap")
 		(at 149.86 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -3487,7 +3487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 144.78 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -3565,7 +3565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 161.29 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3643,7 +3643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:VCC")
+		(lib_id "PCM_artemisa:VCC")
 		(at 144.78 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -3721,7 +3721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 100.33 125.73 0)
 		(unit 1)
 		(body_style 1)

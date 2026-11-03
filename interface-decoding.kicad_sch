@@ -1053,7 +1053,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:Cap"
+		(symbol "PCM_artemisa:Cap"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1198,7 +1198,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:GND"
+		(symbol "PCM_artemisa:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1303,7 +1303,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "artemisa:VCC"
+		(symbol "PCM_artemisa:VCC"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2203,7 +2203,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 166.37 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -2281,7 +2281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 118.11 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2359,7 +2359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:Cap")
+		(lib_id "PCM_artemisa:Cap")
 		(at 128.27 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -2440,7 +2440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:VCC")
+		(lib_id "PCM_artemisa:VCC")
 		(at 118.11 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -2518,7 +2518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "artemisa:GND")
+		(lib_id "PCM_artemisa:GND")
 		(at 142.24 71.12 0)
 		(unit 1)
 		(body_style 1)
