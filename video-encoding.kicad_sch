@@ -531,6 +531,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_artemisa:CP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CP_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_artemisa:Cap"
 			(pin_numbers
 				(hide yes)
@@ -2157,6 +2326,16 @@
 		)
 		(uuid "1eadbb65-c091-4b62-a434-60903d3ed8f1")
 	)
+	(text "This is a decoupling capacitor for \nthe op-amps. It should be placed \nclose to both U17 and U18. "
+		(exclude_from_sim no)
+		(at 296.418 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f081b04e-2b42-499b-a27c-203f2b0f184a")
+	)
 	(junction
 		(at 194.31 60.96)
 		(diameter 0)
@@ -2284,6 +2463,12 @@
 		(uuid "7baf37c1-ef90-4ebf-a2e2-c7129779122a")
 	)
 	(junction
+		(at 179.07 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f7e5c3-933c-4cd5-9b72-0b0af1c7b8fc")
+	)
+	(junction
 		(at 238.76 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2356,6 +2541,12 @@
 		(uuid "f974c8a7-744a-484f-ad2f-149767d94f35")
 	)
 	(junction
+		(at 308.61 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8e2f44-493f-4255-bd5f-2ea9114c072a")
+	)
+	(junction
 		(at 231.14 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2422,6 +2613,16 @@
 			(type default)
 		)
 		(uuid "0abc8587-a78b-4ace-bacc-536e6c6fdc66")
+	)
+	(wire
+		(pts
+			(xy 322.58 138.43) (xy 317.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abcc5fb-4a0a-4cdb-931a-5399077e51ec")
 	)
 	(wire
 		(pts
@@ -2492,6 +2693,16 @@
 			(type default)
 		)
 		(uuid "158b7420-2142-48ea-8e94-2058006ee6f7")
+	)
+	(wire
+		(pts
+			(xy 273.05 50.8) (xy 273.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17611f51-bf9a-43aa-afe9-ca040f3b5c96")
 	)
 	(wire
 		(pts
@@ -2622,6 +2833,16 @@
 			(type default)
 		)
 		(uuid "290d9f59-1617-4593-8299-7848a24977d8")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf7d257-a3c7-4548-9af4-fde09cdb9784")
 	)
 	(wire
 		(pts
@@ -2995,6 +3216,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 36.83) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551be563-d23c-4d3d-9855-312341e74370")
+	)
+	(wire
+		(pts
 			(xy 350.52 110.49) (xy 368.3 110.49)
 		)
 		(stroke
@@ -3222,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "77f8c252-ab24-4578-a699-635373fd772f")
+	)
+	(wire
+		(pts
+			(xy 179.07 45.72) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b24507a-4ac2-4eff-86bc-9ef84ab495ff")
 	)
 	(wire
 		(pts
@@ -3605,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 138.43) (xy 322.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a936b7b4-b22e-4862-82fa-7f62611e6001")
+	)
+	(wire
+		(pts
 			(xy 243.84 214.63) (xy 243.84 184.15)
 		)
 		(stroke
@@ -3622,6 +3873,16 @@
 			(type default)
 		)
 		(uuid "ae8c6d5f-9b73-4354-aec3-911a5076605c")
+	)
+	(wire
+		(pts
+			(xy 273.05 35.56) (xy 273.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef9c713-3fa1-455b-8cb7-d27b6dc168c9")
 	)
 	(wire
 		(pts
@@ -3715,6 +3976,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 138.43) (xy 308.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd31a02f-f813-4e5b-a5f4-2595248625ad")
+	)
+	(wire
+		(pts
 			(xy 312.42 200.66) (xy 322.58 200.66)
 		)
 		(stroke
@@ -3755,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 138.43) (xy 308.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c479bbf9-13ee-4224-8393-8faacc6ef5a8")
+	)
+	(wire
+		(pts
 			(xy 252.73 90.17) (xy 252.73 93.98)
 		)
 		(stroke
@@ -3782,6 +4063,26 @@
 			(type default)
 		)
 		(uuid "c7abf0e1-b762-4afb-88b9-6d41f8bb0515")
+	)
+	(wire
+		(pts
+			(xy 194.31 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ca814f-18d1-438e-8976-f996d63ea0d6")
+	)
+	(wire
+		(pts
+			(xy 308.61 130.81) (xy 308.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6572c4-3dc6-4bf8-9109-33cad5016b83")
 	)
 	(wire
 		(pts
@@ -3882,6 +4183,16 @@
 			(type default)
 		)
 		(uuid "d681fb4f-6ba4-4b4a-a4ed-7f6ecfa86b8d")
+	)
+	(wire
+		(pts
+			(xy 194.31 45.72) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68dc6a7-03ab-4a58-be23-d359c816981c")
 	)
 	(wire
 		(pts
@@ -4811,7 +5122,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:VCC")
-		(at 308.61 144.78 0)
+		(at 308.61 130.81 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4822,7 +5133,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e766660")
 		(property "Reference" "#PWR023"
-			(at 308.61 146.05 0)
+			(at 308.61 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +5144,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 308.61 138.43 0)
+			(at 308.61 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +5155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 144.78 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +5166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 144.78 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4866,7 +5177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 144.78 0)
+			(at 308.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +8100,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:VCC")
-		(at 179.07 52.07 0)
+		(at 179.07 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7799,7 +8110,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee23dae")
 		(property "Reference" "#PWR010"
-			(at 179.07 53.34 0)
+			(at 179.07 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +8121,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 179.07 45.72 0)
+			(at 179.07 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +8132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 52.07 0)
+			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +8143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 52.07 0)
+			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +8154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 52.07 0)
+			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,6 +10391,321 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_artemisa:GND")
+		(at 194.31 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "273c538c-9ac4-4718-b5c1-877d36867796")
+		(property "Reference" "#PWR025"
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5086597e-790a-4de5-a034-4618c60069e6")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:Cap")
+		(at 314.96 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45bcd5b1-987e-4ac7-8687-5eb9c8f35585")
+		(property "Reference" "C17"
+			(at 316.484 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 318.008 141.732 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_artemisa:Disc_capacitor"
+			(at 314.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c54f5617-d811-41d5-98d4-17f129b654e8")
+		)
+		(pin "2"
+			(uuid "49228965-a034-427a-84ee-e6572363e6df")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:GND")
+		(at 273.05 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b674811-ed21-44b2-abf5-9770dce207c9")
+		(property "Reference" "#PWR027"
+			(at 273.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a25cea17-ea69-40ee-a4a1-1d729f14634f")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:GND")
+		(at 322.58 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "523837e7-8666-44a7-8e53-41e7f4caa07c")
+		(property "Reference" "#PWR026"
+			(at 322.58 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "dbb71566-6d43-43b8-9050-9040bca45649")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_artemisa:MCP6294")
 		(at 307.34 105.41 0)
 		(unit 4)
@@ -10655,6 +11281,87 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_artemisa:CP")
+		(at 273.05 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e40cdd98-8ff3-444c-9812-0fc128a778d6")
+		(property "Reference" "C18"
+			(at 275.59 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 269.24 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_artemisa:Radial_capacitor"
+			(at 273.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb1503a-042a-4818-8a97-f374d3d1b9f3")
+		)
+		(pin "2"
+			(uuid "cce16a09-5987-491a-937b-8fca85fd76bb")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_artemisa:MCP6294")
 		(at 190.5 218.44 0)
 		(unit 4)
@@ -10765,6 +11472,165 @@
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "U17")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:Cap")
+		(at 185.42 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1b72352-de6e-46cf-b09c-bd76d6ef35e4")
+		(property "Reference" "C16"
+			(at 186.944 42.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 188.468 49.022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_artemisa:Disc_capacitor"
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24f95210-5eb1-4cc6-b8e5-dbce70738c45")
+		)
+		(pin "2"
+			(uuid "aac9d002-fdb1-4d8e-9c50-6888c2d8b424")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_artemisa:VCC")
+		(at 273.05 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4ec38ad-2312-4cba-b4b5-97a1ea579aa4")
+		(property "Reference" "#PWR014"
+			(at 273.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 273.05 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3143d44b-0a51-4e5f-8a05-69a01618d1ac")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "#PWR014")
+					(unit 1)
 				)
 			)
 		)
