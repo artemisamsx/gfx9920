@@ -5,6 +5,219 @@
 	(uuid "58a13a12-36fa-4c7d-bb6f-67232f29a136")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_artemisa:4066"
 			(pin_names
 				(offset 1.016)
@@ -2361,12 +2574,6 @@
 		(uuid "2461fb92-bc25-43d2-b277-1c23350277a0")
 	)
 	(junction
-		(at 167.64 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "333dae21-5126-405f-a552-ee0b1b0079d8")
-	)
-	(junction
 		(at 205.74 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2427,6 +2634,12 @@
 		(uuid "5de8539b-452c-469e-b52d-30dfcb8b6380")
 	)
 	(junction
+		(at 186.69 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69928784-0ff3-4bbc-824e-71dce05e7432")
+	)
+	(junction
 		(at 323.85 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2449,12 +2662,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75fb4c44-b56b-4fb1-b5ca-3e7d597d6bde")
-	)
-	(junction
-		(at 167.64 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77a0d2a7-fa2b-44db-a52f-171e0bc99953")
 	)
 	(junction
 		(at 119.38 38.1)
@@ -2493,6 +2700,18 @@
 		(uuid "a777bd2f-6d1d-4c29-be5b-c5bfe08c1d6c")
 	)
 	(junction
+		(at 167.64 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a80b2fd2-2c09-4f78-9045-1a113c0429a3")
+	)
+	(junction
+		(at 167.64 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae486f5-06a4-4b4b-babe-8fee2bf9d3d1")
+	)
+	(junction
 		(at 284.48 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,6 +2746,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f159cb97-ff0f-4658-a9cf-0d57e4f5dd3a")
+	)
+	(junction
+		(at 186.69 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4403999-f6cc-4df5-832c-02a25802ef99")
 	)
 	(junction
 		(at 45.72 106.68)
@@ -2573,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "005765d7-29ba-41b1-bb56-7d91973a08bf")
+	)
+	(wire
+		(pts
+			(xy 199.39 237.49) (xy 199.39 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d06b54-ea39-4ff9-b973-89753d99129f")
 	)
 	(wire
 		(pts
@@ -2996,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 233.68) (xy 205.74 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8f0582-abcb-42f0-aa66-bda05dcfdb08")
+	)
+	(wire
+		(pts
 			(xy 231.14 185.42) (xy 231.14 219.71)
 		)
 		(stroke
@@ -3003,16 +3248,6 @@
 			(type default)
 		)
 		(uuid "3eb39f8b-d3d9-4d94-a28e-7d425eefe905")
-	)
-	(wire
-		(pts
-			(xy 187.96 233.68) (xy 167.64 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4003e402-4918-4de0-bb42-22f9d4e1cea3")
 	)
 	(wire
 		(pts
@@ -3196,6 +3431,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 233.68) (xy 186.69 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ff8bdb-98d2-4938-bbf5-6b3d68a294f1")
+	)
+	(wire
+		(pts
 			(xy 243.84 184.15) (xy 269.24 184.15)
 		)
 		(stroke
@@ -3243,6 +3488,16 @@
 			(type default)
 		)
 		(uuid "56c87e84-52bb-4f35-91d0-15d300194df7")
+	)
+	(wire
+		(pts
+			(xy 186.69 233.68) (xy 195.58 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570f8129-6319-4f5d-a3a7-b8e04bad0c48")
 	)
 	(wire
 		(pts
@@ -3366,16 +3621,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 233.68) (xy 195.58 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc2b3e8-a817-442b-8e27-ec252a6177f2")
-	)
-	(wire
-		(pts
 			(xy 180.34 214.63) (xy 121.92 214.63)
 		)
 		(stroke
@@ -3433,6 +3678,16 @@
 			(type default)
 		)
 		(uuid "75257428-07ae-4d48-93ac-74dfa8b887ab")
+	)
+	(wire
+		(pts
+			(xy 167.64 200.66) (xy 173.99 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762be0df-17a6-4703-865a-61956b17078e")
 	)
 	(wire
 		(pts
@@ -3546,16 +3801,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 200.66) (xy 195.58 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8790954e-1649-4320-bd9a-67cb788cd29e")
-	)
-	(wire
-		(pts
 			(xy 190.5 60.96) (xy 194.31 60.96)
 		)
 		(stroke
@@ -3633,6 +3878,26 @@
 			(type default)
 		)
 		(uuid "908cb6d2-03f5-41b4-bc29-164e34fcf442")
+	)
+	(wire
+		(pts
+			(xy 199.39 240.03) (xy 186.69 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91406d1f-c55a-45ae-9577-9d5c390b0106")
+	)
+	(wire
+		(pts
+			(xy 186.69 200.66) (xy 195.58 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915d625a-c491-4c25-ab7f-332dda4015c2")
 	)
 	(wire
 		(pts
@@ -3726,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 200.66) (xy 186.69 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99da8caf-6539-4879-897d-f3ea6e590474")
+	)
+	(wire
+		(pts
 			(xy 218.44 218.44) (xy 218.44 179.07)
 		)
 		(stroke
@@ -3753,6 +4028,16 @@
 			(type default)
 		)
 		(uuid "9c9d58d6-f3e6-4cd4-82ba-7f0f69285e73")
+	)
+	(wire
+		(pts
+			(xy 199.39 207.01) (xy 186.69 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d49eae6-d3e4-44b4-a9c1-4d06452c572d")
 	)
 	(wire
 		(pts
@@ -3823,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "a5637af6-993e-47d6-ad1c-8f41fe428696")
+	)
+	(wire
+		(pts
+			(xy 199.39 204.47) (xy 199.39 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a682b463-9977-4ddd-b57e-ac960c318edc")
 	)
 	(wire
 		(pts
@@ -3963,6 +4258,16 @@
 			(type default)
 		)
 		(uuid "bb28a07c-87e3-4d83-a955-8a0dba1703fd")
+	)
+	(wire
+		(pts
+			(xy 203.2 200.66) (xy 205.74 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2d053c-13e3-44ce-8cf1-71d29d30680a")
 	)
 	(wire
 		(pts
@@ -4146,6 +4451,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 207.01) (xy 186.69 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d362e0d7-9f27-42c6-82e1-f9339bf26e7e")
+	)
+	(wire
+		(pts
 			(xy 167.64 157.48) (xy 180.34 157.48)
 		)
 		(stroke
@@ -4173,16 +4488,6 @@
 			(type default)
 		)
 		(uuid "d5f47326-3f1f-4e7b-8bda-e60d462095d4")
-	)
-	(wire
-		(pts
-			(xy 187.96 200.66) (xy 167.64 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d681fb4f-6ba4-4b4a-a4ed-7f6ecfa86b8d")
 	)
 	(wire
 		(pts
@@ -4253,6 +4558,16 @@
 			(type default)
 		)
 		(uuid "e5ce6f9f-fe02-4444-938e-89a50dc0d5f3")
+	)
+	(wire
+		(pts
+			(xy 186.69 240.03) (xy 186.69 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fa53a7-d1a1-47ba-a37e-39a420c060fc")
 	)
 	(wire
 		(pts
@@ -4403,6 +4718,16 @@
 			(type default)
 		)
 		(uuid "fa9eba32-aef9-4409-a7de-c3ca3b69cbde")
+	)
+	(wire
+		(pts
+			(xy 167.64 233.68) (xy 173.99 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3bfd65-d98e-4675-84af-ee6ee455cb0b")
 	)
 	(wire
 		(pts
@@ -6044,7 +6369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_artemisa:DIP-8_300"
 			(at 238.76 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8577,7 +8902,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:R")
-		(at 191.77 200.66 0)
+		(at 177.8 200.66 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8588,7 +8913,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eead2af")
 		(property "Reference" "R12"
-			(at 193.04 198.12 0)
+			(at 179.07 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8598,8 +8923,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180"
-			(at 193.04 200.66 0)
+		(property "Value" "82"
+			(at 179.07 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8610,7 +8935,7 @@
 			)
 		)
 		(property "Footprint" "PCM_artemisa:Axial_resistor"
-			(at 191.77 200.66 90)
+			(at 177.8 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8621,7 +8946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 200.66 90)
+			(at 177.8 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +8957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 200.66 0)
+			(at 177.8 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:R")
-		(at 191.77 233.68 0)
+		(at 177.8 233.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8752,7 +9077,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eec2ce7")
 		(property "Reference" "R13"
-			(at 193.04 231.14 0)
+			(at 179.07 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8762,8 +9087,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180"
-			(at 193.04 233.68 0)
+		(property "Value" "82"
+			(at 179.07 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8774,7 +9099,7 @@
 			)
 		)
 		(property "Footprint" "PCM_artemisa:Axial_resistor"
-			(at 191.77 233.68 90)
+			(at 177.8 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +9110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 233.68 90)
+			(at 177.8 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +9121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 233.68 0)
+			(at 177.8 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10161,6 +10486,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 199.39 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01fcea0e-452f-44f0-8fe4-74cdd2b98d61")
+		(property "Reference" "RV2"
+			(at 199.39 230.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 202.692 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 199.39 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "11d52d76-5ce9-4803-8140-304687e041d7")
+		)
+		(pin "1"
+			(uuid "4c5bce16-4034-4cac-b02c-15692fb86e4f")
+		)
+		(pin "2"
+			(uuid "5a4dea70-7c12-40ff-9412-4879098b1586")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_artemisa:MCP6294")
 		(at 177.8 60.96 0)
 		(unit 1)
@@ -11161,6 +11601,121 @@
 				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
 					(reference "U17")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 199.39 200.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af23f049-7111-4e36-badb-216acc551a4d")
+		(property "Reference" "RV1"
+			(at 199.39 197.612 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 202.692 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "00ccbfbd-d3dc-4d14-8536-a84f027009a5")
+		)
+		(pin "1"
+			(uuid "61ca7055-c9e7-4ee6-8655-122c8033796b")
+		)
+		(pin "2"
+			(uuid "351cee17-653e-42bd-a1c0-0a3e6228c7ea")
+		)
+		(instances
+			(project "gfx-9920"
+				(path "/dc3086ad-98b8-4235-9035-2e02c3c5e5b2/00000000-0000-0000-0000-00005ed467f3"
+					(reference "RV1")
+					(unit 1)
 				)
 			)
 		)

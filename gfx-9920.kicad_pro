@@ -459,7 +459,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -700,7 +700,7 @@
         "uuid": "dc3086ad-98b8-4235-9035-2e02c3c5e5b2"
       }
     ],
-    "used_designators": "#PWR14,#PWR25-27,C16-18",
+    "used_designators": "#PWR14,#PWR25-27,C16-18,RV1-2",
     "variants": []
   },
   "sheets": [

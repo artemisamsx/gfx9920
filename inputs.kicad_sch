@@ -1605,7 +1605,13 @@
 		)
 	)
 	(junction
-		(at 173.99 148.59)
+		(at 163.83 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19edd2ab-0620-4fd9-af09-02e5aaee3c80")
+	)
+	(junction
+		(at 186.69 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "234459f6-8ffc-43b4-a490-c3af0417edb7")
@@ -1623,10 +1629,10 @@
 		(uuid "b2140248-0fa9-470a-bc64-190277c5c906")
 	)
 	(junction
-		(at 187.96 148.59)
+		(at 186.69 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec30fed5-9300-4943-9d78-84ee23d3c9af")
+		(uuid "d77595e0-7f1a-4dbe-a57c-0a69c5741c31")
 	)
 	(no_connect
 		(at 135.89 82.55)
@@ -1826,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 148.59) (xy 173.99 148.59)
+			(xy 135.89 148.59) (xy 186.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1843,16 +1849,6 @@
 			(type default)
 		)
 		(uuid "1e4feefe-8f6f-4c25-bd93-e5673d6569d6")
-	)
-	(wire
-		(pts
-			(xy 190.5 148.59) (xy 187.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fff94a7-5911-4595-ae96-2bbcfe69465e")
 	)
 	(wire
 		(pts
@@ -1896,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 148.59) (xy 173.99 144.78)
+			(xy 186.69 148.59) (xy 186.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 148.59) (xy 187.96 151.13)
+			(xy 200.66 151.13) (xy 200.66 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 148.59) (xy 173.99 153.67)
+			(xy 186.69 148.59) (xy 186.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 148.59) (xy 173.99 148.59)
+			(xy 191.77 151.13) (xy 186.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2106,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 153.67) (xy 173.99 153.67)
+			(xy 135.89 153.67) (xy 186.69 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2226,13 +2222,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 148.59) (xy 187.96 148.59)
+			(xy 196.85 151.13) (xy 200.66 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee138422-c9e8-4af3-87c3-8137d1204645")
+	)
+	(wire
+		(pts
+			(xy 186.69 151.13) (xy 186.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd2a30e-59e2-4fcb-9f42-27249ef16da3")
+	)
+	(wire
+		(pts
+			(xy 163.83 138.43) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40a6baa-1450-4ddc-a512-e1ebbd0d7577")
 	)
 	(wire
 		(pts
@@ -2658,7 +2674,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:CP")
-		(at 181.61 148.59 90)
+		(at 194.31 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2668,7 +2684,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c4a")
 		(property "Reference" "C11"
-			(at 182.88 146.05 90)
+			(at 195.58 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2679,7 +2695,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 184.15 152.4 90)
+			(at 196.85 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2690,7 +2706,7 @@
 			)
 		)
 		(property "Footprint" "PCM_artemisa:Radial_capacitor"
-			(at 181.61 148.59 0)
+			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +2717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 148.59 0)
+			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 148.59 0)
+			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2833,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:VCC")
-		(at 173.99 144.78 0)
+		(at 186.69 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2827,7 +2843,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c57")
 		(property "Reference" "#PWR0117"
-			(at 173.99 146.05 0)
+			(at 186.69 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +2854,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 173.99 138.43 0)
+			(at 186.69 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 144.78 0)
+			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 144.78 0)
+			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +2887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 144.78 0)
+			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,7 +2911,7 @@
 	)
 	(symbol
 		(lib_id "PCM_artemisa:GND")
-		(at 187.96 151.13 0)
+		(at 200.66 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2905,7 +2921,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb76c5d")
 		(property "Reference" "#PWR0118"
-			(at 187.96 153.67 0)
+			(at 200.66 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2916,7 +2932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 148.59 0)
+			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 151.13 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 151.13 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 151.13 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3067,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 190.5 148.59 270)
+		(at 167.64 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3061,7 +3077,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005edf00ef")
 		(property "Reference" "#FLG0101"
-			(at 192.405 148.59 0)
+			(at 169.545 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3072,7 +3088,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 193.7512 148.59 90)
+			(at 170.8912 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3083,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 148.59 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 148.59 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +3121,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 190.5 148.59 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
